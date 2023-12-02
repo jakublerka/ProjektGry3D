@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.Users;
 using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
@@ -13,6 +14,9 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
     private Vector2 moveInput;
+    private float jumpForce = 5f;
+    public float czasWierzcholkuSkoku;
+    public float wysokoscSkoku=10f;
     private bool czySkacze;
     private bool czyZwrotPrawo;
     private bool czyZwrotLewo;
@@ -22,6 +26,15 @@ public class PlayerController : MonoBehaviour
     public float przyszpieszenieSpadania; //Bedzie dodane pod przycisk 'S' oraz strzalke w dol zeby przyspieszyc spadanie jesli gracz chce.
     public bool podtrzymanieMomentum = true;
 
+
+    //CHECKERY
+    public Transform UziemienieChecker;
+    private Vector2 UziemienieCheckerSize = new Vector2(0.30f, 0.03f);
+    public Transform ScianaPrawaChecker;
+    public Transform ScianaLewaChecker;
+
+
+    private LayerMask podloga;
 
 
     //Awake wywolywane jest w momencie ladowania sceny
@@ -34,6 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        //grawitacja = -(2*wysokoscSkoku)/(czasWierzcholkuSkoku * czasWierzcholkuSkoku);
         SetGravityScale(grawitacja);
         czyZwrotPrawo = true; 
     }
@@ -47,6 +61,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         Run(1);
+        Jump();
         //Debug.Log(rb.velocity.x);
         /*
         if(moveHorizontal>0.1f || moveHorizontal < -0.1f)
@@ -76,6 +91,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Jump()
+    {
+        if(czySkacze==false)
+        {
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                
+            }
+        }
+    }
+
     //Obrot parent obiektu (player) na osi X
     private void Obrot()
     {
@@ -101,5 +128,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    public void SprawdzenieUziemienia()
+    {
+        if(Physics2D.OverlapBox(UziemienieChecker.position, UziemienieCheckerSize, 0, podloga) && !czySkacze)
+        {
+            czySkacze = false;
+        } else 
+        {
+            czySkacze = true;
+        }
+    }
 }

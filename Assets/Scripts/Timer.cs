@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Timer : MonoBehaviour
@@ -8,6 +9,7 @@ public class Timer : MonoBehaviour
 
     //Do zarzadzania czy level ma byc na czas, defaultowo nie.
     public bool timeRunning = false;
+    public TextMeshPro timerText;
 
     // Update is called once per frame
     void Update()
@@ -21,10 +23,12 @@ public class Timer : MonoBehaviour
                 timeRemaining -= Time.deltaTime;
             }
         }
+
+        DisplayTime();
     }
 
     void DisplayTime()
     {
-
+        timerText.text = "Timer: "+timeRemaining;
     }
 }
