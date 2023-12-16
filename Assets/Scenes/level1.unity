@@ -1218,6 +1218,7 @@ GameObject:
   - component: {fileID: 915136518}
   - component: {fileID: 915136517}
   - component: {fileID: 915136519}
+  - component: {fileID: 915136520}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1333,9 +1334,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grawitacja: 1
-  speed: 1
+  movementY: 0
   czasWierzcholkuSkoku: 10
   wysokoscSkoku: 5
+  czySkacze: 0
   bieganieMaksSzybkosc: 10
   bieganiePrzyspieszenie: 1
   przyszpieszenieSpadania: 1
@@ -1399,6 +1401,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &915136520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915136513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85066cbde04ce51459f5351616f9d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0
+  jump: 0
 --- !u!1 &929801598
 GameObject:
   m_ObjectHideFlags: 0

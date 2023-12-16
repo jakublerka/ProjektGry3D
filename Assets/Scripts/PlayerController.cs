@@ -9,15 +9,17 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
 
+    AnimationsController animationsControl = new AnimationsController();
+
     public float grawitacja; //sila z jaka dziala grawitacja
-    public float speed=10f;
-    private float movementX;
-    private float movementY;
+    static public float speed=10f;
+    static public float movementX;
+    public float movementY;
     private Vector2 moveInput;
     private float jumpForce = 5f;
     public float czasWierzcholkuSkoku;
     public float wysokoscSkoku=10f;
-    private bool czySkacze;
+    public bool czySkacze;
     private bool czyZwrotPrawo;
     private bool czyZwrotLewo;
     private bool czySkaczeNaScianie; //For later
@@ -35,6 +37,9 @@ public class PlayerController : MonoBehaviour
 
 
     private LayerMask podloga;
+
+    //public delegate void LandAction();
+    //public static event LandAction onLanding;
 
 
     //Awake wywolywane jest w momencie ladowania sceny
@@ -91,16 +96,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void Jump()
+    public void Jump()
     {
+        //SprawdzenieUziemienia(); //Ta funkcja powoduje ze nie dziala skok, to be fixed
         if(czySkacze==false)
         {
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-                
+
             }
         }
+        
     }
 
     //Obrot parent obiektu (player) na osi X
@@ -133,9 +140,11 @@ public class PlayerController : MonoBehaviour
         if(Physics2D.OverlapBox(UziemienieChecker.position, UziemienieCheckerSize, 0, podloga) && !czySkacze)
         {
             czySkacze = false;
-        } else 
+        } else if(Physics2D.OverlapBox(UziemienieChecker.position, UziemienieCheckerSize, 0, podloga)==false && czySkacze)
         {
+            Debug.Log("whatevergdfsgdf");
             czySkacze = true;
+            AnimationsController.animatorControl.SetBool("jump", czySkacze);
         }
     }
 }
