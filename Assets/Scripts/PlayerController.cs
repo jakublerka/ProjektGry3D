@@ -5,146 +5,134 @@ using UnityEngine;
 using UnityEngine.InputSystem.Users;
 using UnityEngine.UIElements;
 
-public class PlayerController : MonoBehaviour
+
+// !!!HEADS UP!!!
+//TEN KOD DZIALAL, ALE POSTANOWILEM GO PRZEPISAC ZEBY POPRAWIC PRZEJRZYSTOC I CZYTELNOSC KODU
+//NAPISALEM TO JESZCZE RAZ PONIZEJ
+//POPRZEDNIA WERSJA ZNAJDUJE SIE W PLIKU PlayerControllerOLD.cs
+
+
+public class PlayerController : MonoBehaviour 
 {
-    private Rigidbody2D rb;
+    public PlayerData Data;
 
-    AnimationsController animationsControl = new AnimationsController();
+    public Rigidbody2D rb {get; private set;} //public read, private write
+    public bool zwrotPrawo {get; private set;}
+    public bool czySkacze {get; private set;}
 
-    public float grawitacja; //sila z jaka dziala grawitacja
-    static public float speed=10f;
-    static public float movementX;
-    public float movementY;
+
+
     private Vector2 moveInput;
-    private float jumpForce = 5f;
-    public float czasWierzcholkuSkoku;
-    public float wysokoscSkoku=10f;
-    public bool czySkacze;
-    private bool czyZwrotPrawo;
-    private bool czyZwrotLewo;
-    private bool czySkaczeNaScianie; //For later
-    public float bieganieMaksSzybkosc;
-    public float bieganiePrzyspieszenie;
-    public float przyszpieszenieSpadania; //Bedzie dodane pod przycisk 'S' oraz strzalke w dol zeby przyspieszyc spadanie jesli gracz chce.
-    public bool podtrzymanieMomentum = true;
 
 
-    //CHECKERY
-    public Transform UziemienieChecker;
-    private Vector2 UziemienieCheckerSize = new Vector2(0.30f, 0.03f);
-    public Transform ScianaPrawaChecker;
-    public Transform ScianaLewaChecker;
+
+    //Checkery polozenia postaci, beda potrzebne do np. skoku od sciany.
+    [Header("Checkery")]
+    [SerializeField] private Transform punktUziemieniaChecker; //Sprawia ze prywatna zmienna pokazuje sie w Inspektorze
+    [SerializeField] private Vector2 wielkoscPunktuUziemienia = new Vector2(0.50f, 0.03f);
 
 
-    private LayerMask podloga;
-
-    //public delegate void LandAction();
-    //public static event LandAction onLanding;
+    [SerializeField] private LayerMask podlogaLayer;
 
 
-    //Awake wywolywane jest w momencie ladowania sceny
-    void Awake()
+    public void Awake()
     {
-        //gameObject szuka obiekt w którym jest aktualnie dołączony, w tym przypadku Player.
-        rb=gameObject.GetComponent<Rigidbody2D>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        UstawienieGrawitacji(Data.skalaGrawitacji);
+        zwrotPrawo = true;
     }
 
 
-    void Start()
+    private void Update()
     {
-        //grawitacja = -(2*wysokoscSkoku)/(czasWierzcholkuSkoku * czasWierzcholkuSkoku);
-        SetGravityScale(grawitacja);
-        czyZwrotPrawo = true; 
+        //To do: TIMERY
+
+
+        // <!-- INPUT HANDLERS --!>
+        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.y = Input.GetAxisRaw("Vertical");
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+        }
+
     }
 
-    void Update()
-    {
-        movementX = Input.GetAxisRaw("Horizontal");
-        movementY = Input.GetAxisRaw("Vertical");
-    }
-
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         Run(1);
-        Jump();
-        //Debug.Log(rb.velocity.x);
-        /*
-        if(moveHorizontal>0.1f || moveHorizontal < -0.1f)
-        {
-            
-            rb.AddForce(new Vector2(moveHorizontal * speed, 0f), ForceMode2D.Impulse);
-        }
-        */
-
     }
 
+
+    // <!-- Metody poruszania gracza --!>
     private void Run(float lerpAmount)
     {
-        float predkoscDocelowa = movementX * bieganieMaksSzybkosc;
-        predkoscDocelowa = Mathf.Lerp(rb.velocity.x, predkoscDocelowa, lerpAmount); //Interpolacja liniowa
+        float predkoscDocelowa = moveInput.x * Data.maksPredBiegania;
+        predkoscDocelowa = Mathf.Lerp(rb.velocity.x, predkoscDocelowa, lerpAmount);
 
-        float predkoscAkceleracji=1;
+        float przyspieszenie = 2;
 
         float roznicaPredkosci = predkoscDocelowa - rb.velocity.x;
-        float movement = roznicaPredkosci * predkoscAkceleracji;
+        float movement = roznicaPredkosci * przyspieszenie;
 
-        rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
+        rb.AddForce(Vector2.right * movement, ForceMode2D.Force);
 
-        if(movementX!=0)
+        if(moveInput.x != 0)
         {
-            SprawdzenieZwrotu(movementX>0);
+            SprawdzenieZwrotu(moveInput.x>0);
         }
     }
 
-    public void Jump()
-    {
-        //SprawdzenieUziemienia(); //Ta funkcja powoduje ze nie dziala skok, to be fixed
-        if(czySkacze==false)
-        {
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
-            }
-        }
-        
-    }
-
-    //Obrot parent obiektu (player) na osi X
     private void Obrot()
     {
         Vector3 skala = transform.localScale;
         skala.x *= -1; //skala.x = skala.x * (-1)
         transform.localScale = skala;
 
-        czyZwrotPrawo = !czyZwrotPrawo;
-        Debug.Log("Zwrot Prawo wartosc: " + czyZwrotPrawo);
+        zwrotPrawo = !zwrotPrawo;
+        Debug.Log("Zwrot Prawo wartosc: " + zwrotPrawo);
     }
 
 
-    public void SetGravityScale(float scale)
+
+    private void Jump()
     {
-        rb.gravityScale=scale;
+        if(rb.velocity.y < 0)
+        {
+            rb.gravityScale = Data.silaGrawitacji * 1.5f; //Zwiekszenie grawitacji podczas spadania
+        }
+        //TO TEST
+        //rb.velocity.y = 0;
+        
+        rb.AddForce(Vector2.up * Data.silaSkoku, ForceMode2D.Impulse);
+
+    }
+
+
+
+
+    private void UstawienieGrawitacji(float skala)
+    {
+        rb.gravityScale = skala;
     }
 
     public void SprawdzenieZwrotu(bool czyRuszaWPrawo)
     {
-        if(czyRuszaWPrawo != czyZwrotPrawo)
+        if(czyRuszaWPrawo != zwrotPrawo)
         {
             Obrot();
         }
     }
 
-    public void SprawdzenieUziemienia()
-    {
-        if(Physics2D.OverlapBox(UziemienieChecker.position, UziemienieCheckerSize, 0, podloga) && !czySkacze)
-        {
-            czySkacze = false;
-        } else if(Physics2D.OverlapBox(UziemienieChecker.position, UziemienieCheckerSize, 0, podloga)==false && czySkacze)
-        {
-            Debug.Log("whatevergdfsgdf");
-            czySkacze = true;
-            AnimationsController.animatorControl.SetBool("jump", czySkacze);
-        }
-    }
+
+
+
+
+
 }

@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 340351285}
   - component: {fileID: 340351288}
   - component: {fileID: 340351287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1138,7 +1138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 675402936}
   - component: {fileID: 675402935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,9 +1216,9 @@ GameObject:
   - component: {fileID: 915136514}
   - component: {fileID: 915136516}
   - component: {fileID: 915136518}
-  - component: {fileID: 915136517}
   - component: {fileID: 915136519}
   - component: {fileID: 915136520}
+  - component: {fileID: 915136522}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1317,34 +1317,10 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &915136517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915136513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c05b54bc2f5351c40b3bc2a24096118f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grawitacja: 1
-  movementY: 0
-  czasWierzcholkuSkoku: 10
-  wysokoscSkoku: 5
-  czySkacze: 0
-  bieganieMaksSzybkosc: 10
-  bieganiePrzyspieszenie: 1
-  przyszpieszenieSpadania: 1
-  podtrzymanieMomentum: 1
-  UziemienieChecker: {fileID: 1872128752}
-  ScianaPrawaChecker: {fileID: 1085365701}
-  ScianaLewaChecker: {fileID: 744576816}
 --- !u!58 &915136518
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1413,8 +1389,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85066cbde04ce51459f5351616f9d9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  jump: 0
+--- !u!114 &915136522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915136513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05b54bc2f5351c40b3bc2a24096118f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: baf539c6699945f47aafd7aed2269ade, type: 2}
+  punktUziemieniaChecker: {fileID: 1872128752}
+  wielkoscPunktuUziemienia: {x: 0.49, y: 0.03}
+  podlogaLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &929801598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2017,7 @@ Transform:
   m_GameObject: {fileID: 2032841150}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.21, y: 7.98, z: -10}
+  m_LocalPosition: {x: 8.21, y: 10.31, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

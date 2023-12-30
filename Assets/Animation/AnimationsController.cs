@@ -10,8 +10,8 @@ public class AnimationsController : MonoBehaviour
     //PlayerController playerController = new PlayerController();
 
     //[SerializeField] sprawia ze zmienna nadal jest widoczna w edytorze i wciaz pozostaje prywatna
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private float jump;
+    //[SerializeField] private float moveSpeed;
+    //[SerializeField] private float jump;
     //private float movementX;
 
     //Na potrzeby "pseudo-delayu"
@@ -27,7 +27,7 @@ public class AnimationsController : MonoBehaviour
     void Update()
     {
         //movementX = Input.GetAxisRaw("Horizontal") * PlayerController.speed;
-        animatorControl.SetFloat("moveSpeed", Mathf.Abs(PlayerController.movementX*PlayerController.speed)); //Mathf.Abs() daje wartosc absolutna, aby uniknac sytuacji gdzie moveSpeed < 0
+        //animatorControl.SetFloat("moveSpeed", Mathf.Abs(PlayerController.movementX*PlayerController.speed)); //Mathf.Abs() daje wartosc absolutna, aby uniknac sytuacji gdzie moveSpeed < 0
         if(Input.GetKeyDown(KeyCode.Space))
         {
             animatorControl.SetBool("jump",true);

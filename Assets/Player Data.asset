@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96a121490c5f6a4690d9a3ce018196e, type: 3}
+  m_Name: Player Data
+  m_EditorClassIdentifier: 
+  silaGrawitacji: 20
+  skalaGrawitacji: 2.0387359
+  multiplikatorSpadGrawitacji: 2.13
+  maksPredSpadania: 3.43
+  maksPredBiegania: 10
+  akceleracjaBiegania: 2.17
+  silaAkceleracjiBiegania: 10.85
+  deakceleracjaBiegania: 2.15
+  silaDeakceleracjiBiegania: 10.75
+  akceleracjaWPowietrzu: 0.6
+  deakceleracjaWPowietrzu: 0.6
+  wysokoscSkoku: 2.5
+  czasWierzcholkuSkoku: 0.5
+  silaSkoku: 10
+  coyoteTime: 0
+  czasBuforuSkoku: 0
