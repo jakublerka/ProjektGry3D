@@ -14,15 +14,15 @@ using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour 
 {
-    public PlayerData Data;
 
     public Rigidbody2D rb {get; private set;} //public read, private write
     public bool zwrotPrawo {get; private set;}
-    public bool czySkacze {get; private set;}
+    static public bool czySkacze {get; private set;}
 
 
 
-    private Vector2 moveInput;
+    static public Vector2 moveInput; //static poniewaz inaczej nie dziala animacja, nie jestem pewien dlaczego.
+    private bool doubleJumpAvailable = false;
 
 
 
@@ -34,6 +34,48 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private LayerMask podlogaLayer;
 
+    
+    // <!-- PRZENIESIONE Z PLIKU PLAYER DATA --!>
+
+    [Header("Grawitacja")] //Latwe podzielenie inspektora i kodu na czesci
+    //Daje wieksza przejrzystosc kodu
+    public float silaGrawitacji;
+    public float skalaGrawitacji;
+
+
+    [Space(5)]
+    public float multiplikatorSpadGrawitacji;
+    public float maksPredSpadania;
+
+    /*
+   	public float multiplikatorSzybkiegoSpadania; //Kontrola szybkiego spadania przez gracza
+	public float maksPredSzybkiegoSpadania;
+    */
+
+    [Space(10)] //[Space()] tworzy odstep pomiedzy wierszami w Inspektorze
+    [Header("Bieganie")]
+    public float maksPredBiegania;
+    public float akceleracjaBiegania;
+    public float tlumienieAkceleracji;
+    [HideInInspector] public float silaAkceleracjiBiegania;
+    public float deakceleracjaBiegania;
+    [HideInInspector] public float silaDeakceleracjiBiegania;
+    
+    // [Space(5)]
+    // [Range(0f, 1)] public float akceleracjaWPowietrzu;
+    // [Range(0f, 1)] public float deakceleracjaWPowietrzu;
+    //[Range(0f,1)] sprawia ze zmienne sa w zakresie od 0 do 1 float, jako slider w inspektorze
+
+    [Header("Skakanie")]
+    public float wysokoscSkoku;
+    public float czasWierzcholkuSkoku; //Czas z jakim gracz ma osiagnac najwyzszy punkt skoku
+    public float silaSkoku;
+    private int coyoteTime=0; //Czas kiedy gracz moze skoczyc po 'spadnieciu' z podloza
+    private float jumpBufferTime = 0.2f; //Bufor kiedy gracz moze zkolejkowac
+    private float jumpBufferCounter;
+
+
+
 
     public void Awake()
     {
@@ -42,45 +84,88 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        UstawienieGrawitacji(Data.skalaGrawitacji);
+        UstawienieGrawitacji(skalaGrawitacji);
         zwrotPrawo = true;
     }
 
 
     private void Update()
     {
-        //To do: TIMERY
-
-
         // <!-- INPUT HANDLERS --!>
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
+		
+        Jump();
 
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Jump();
+		if (Physics2D.OverlapBox(punktUziemieniaChecker.position, wielkoscPunktuUziemienia, 0, podlogaLayer))
+		{
+            czySkacze=false;
+            coyoteTime = 0;
+        } else {
+            czySkacze = true;
         }
 
+        //Coyote time zaczyna sie naliczac kiedy nie jestem na podlodze i wynosi 0 lub wiecej, nalicza sie w petli do momentu jak dobije do limitu. Twardy reset jest poprzez odpadniecie na platforme. 
+        // Po dobiciu do limitu wartosc coyoteTime zmieniona jest na -1 w celu unikniecia nieskonczonej petli 0->limit->0->limit->... 
+
+        if(coyoteTime > 200)
+        {
+            coyoteTime = -1;
+        }
+
+        if(czySkacze && coyoteTime>=0)
+        {
+            coyoteTime++;
+        }
     }
 
     private void FixedUpdate()
     {
         Run(1);
+        
     }
 
+    //Wowylywane w inskeptorze
+    private void OnValidate()
+    {
+        
+        silaGrawitacji = -(2*wysokoscSkoku) / (czasWierzcholkuSkoku * czasWierzcholkuSkoku); 
+        
+        //Obliczenie sily grawitacji uzywajac wbudowanej grawitacji Unity
+        skalaGrawitacji = silaGrawitacji / Physics2D.gravity.y; 
+        
+        silaAkceleracjiBiegania = (50 * akceleracjaBiegania) / maksPredBiegania;
+        silaDeakceleracjiBiegania = (50 * deakceleracjaBiegania) / maksPredBiegania;
+
+        silaSkoku = Mathf.Abs(silaGrawitacji) * czasWierzcholkuSkoku;
+
+        //Obliczenie akceleracji i deakceleracji na podstawie "zacisniecia" wartosci pomiedzy 0.01f a 
+        // maksymalna predkoscia, w ten sposob gracz nie bedzie szybszy niz zaasygnowana predkosc
+        akceleracjaBiegania = Mathf.Clamp(akceleracjaBiegania, 0.01f, maksPredBiegania);
+        deakceleracjaBiegania = Mathf.Clamp(deakceleracjaBiegania, 0.01f, maksPredBiegania);
+        
+    }
 
     // <!-- Metody poruszania gracza --!>
     private void Run(float lerpAmount)
     {
-        float predkoscDocelowa = moveInput.x * Data.maksPredBiegania;
+        
+        float predkoscDocelowa = moveInput.x * maksPredBiegania;
         predkoscDocelowa = Mathf.Lerp(rb.velocity.x, predkoscDocelowa, lerpAmount);
 
-        float przyspieszenie = 2;
+        //condition ? expression_if_true : expression_if_false; FYI
+        float przyspieszenie = (Mathf.Abs(predkoscDocelowa) > 0.01f) ? silaAkceleracjiBiegania : silaDeakceleracjiBiegania;
 
         float roznicaPredkosci = predkoscDocelowa - rb.velocity.x;
         float movement = roznicaPredkosci * przyspieszenie;
 
-        rb.AddForce(Vector2.right * movement, ForceMode2D.Force);
+        //float horizontalVelocity = rb.velocity.x;
+        //horizontalVelocity += moveInput.x;
+        //horizontalVelocity *= Mathf.Pow(1f - tlumienieAkceleracji, Time.deltaTime*5f);
+
+        //rb.velocity = new Vector2(horizontalVelocity, 0f);
+        rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
+        
 
         if(moveInput.x != 0)
         {
@@ -88,6 +173,67 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Jump()
+    {
+        /*if(rb.velocity.y < 0)
+        {
+            rb.gravityScale = silaGrawitacji * 1.5f; //Zwiekszenie grawitacji podczas spadania
+        } else 
+        {
+            rb.gravityScale = silaGrawitacji;
+        }*/
+        //TO TEST
+        //rb.velocity.y = 0;
+        
+        if(Input.GetButtonDown("Jump"))
+        {
+            jumpBufferCounter = jumpBufferTime;
+            // Debug.Log(coyoteTime);
+            //Jesli gracz jest na podlodze LUB spadl z podlogi, to moze skoczyc
+            if(!czySkacze)
+            {
+                // Debug.Log("Zwykly skok + coyoteTime = "+coyoteTime);
+                rb.AddForce(Vector2.up * silaSkoku, ForceMode2D.Impulse);
+                doubleJumpAvailable = true;
+                jumpBufferCounter = 0;
+            }
+
+            if (coyoteTime > 0 && !doubleJumpAvailable) {
+                // Debug.Log("Coyote skok + coyoteTime = "+coyoteTime);
+                rb.AddForce(Vector2.up * silaSkoku, ForceMode2D.Impulse);
+                doubleJumpAvailable = false;
+                coyoteTime = -1; //limit do pojedynczego skoku coyote, twardy reset przez stycznosc z podloga
+                jumpBufferCounter = 0;
+            }
+
+            if(czySkacze && doubleJumpAvailable)
+            {
+                if(Input.GetButtonDown("Jump"))
+                {
+                    // Debug.Log("Double skok + coyoteTime = "+coyoteTime);
+                    rb.AddForce(Vector2.up * silaSkoku * 0.75f, ForceMode2D.Impulse);
+                    doubleJumpAvailable = false;
+                    jumpBufferCounter = 0;
+                }
+            }          
+        } else {
+            jumpBufferCounter -= Time.deltaTime;
+        }
+        
+        if(!czySkacze && jumpBufferCounter > 0f)
+        {
+            // Debug.Log("Bufor skoku");
+            rb.AddForce(Vector2.up * silaSkoku, ForceMode2D.Impulse);
+            doubleJumpAvailable = false; //wartosc true powoduje petle skoku regular->double->buffer->double->buffer->...
+            jumpBufferCounter=0;
+        }
+    }
+
+
+    private void UstawienieGrawitacji(float skala)
+    {
+        rb.gravityScale = skala;
+    }
 
     private void Obrot()
     {
@@ -96,30 +242,7 @@ public class PlayerController : MonoBehaviour
         transform.localScale = skala;
 
         zwrotPrawo = !zwrotPrawo;
-        Debug.Log("Zwrot Prawo wartosc: " + zwrotPrawo);
-    }
-
-
-
-    private void Jump()
-    {
-        if(rb.velocity.y < 0)
-        {
-            rb.gravityScale = Data.silaGrawitacji * 1.5f; //Zwiekszenie grawitacji podczas spadania
-        }
-        //TO TEST
-        //rb.velocity.y = 0;
-        
-        rb.AddForce(Vector2.up * Data.silaSkoku, ForceMode2D.Impulse);
-
-    }
-
-
-
-
-    private void UstawienieGrawitacji(float skala)
-    {
-        rb.gravityScale = skala;
+        //Debug.Log("Zwrot Prawo wartosc: " + zwrotPrawo);
     }
 
     public void SprawdzenieZwrotu(bool czyRuszaWPrawo)
@@ -129,10 +252,4 @@ public class PlayerController : MonoBehaviour
             Obrot();
         }
     }
-
-
-
-
-
-
 }
