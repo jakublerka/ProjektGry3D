@@ -54,12 +54,13 @@ public class PlayerController : MonoBehaviour
 
     [Space(10)] //[Space()] tworzy odstep pomiedzy wierszami w Inspektorze
     [Header("Bieganie")]
+    //public float predkoscBiegania;
     public float maksPredBiegania;
-    public float akceleracjaBiegania;
-    public float tlumienieAkceleracji;
-    [HideInInspector] public float silaAkceleracjiBiegania;
+    public float akceleracjaBiegania; //predkosc z jaka gracz osiaga maksymanlna predkosc
+    // public float tlumienieAkceleracji;
+    [HideInInspector] public float silaAkceleracjiBiegania; //Ta siła jest dodawana do gracza
     public float deakceleracjaBiegania;
-    [HideInInspector] public float silaDeakceleracjiBiegania;
+    [HideInInspector] public float silaDeakceleracjiBiegania; //Ta siła jest dodawana do gracza
     
     // [Space(5)]
     // [Range(0f, 1)] public float akceleracjaWPowietrzu;
@@ -94,9 +95,11 @@ public class PlayerController : MonoBehaviour
         // <!-- INPUT HANDLERS --!>
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
-		
+
+        Obrot();
         Jump();
 
+        //Sprawdzenie czy gracz skacze czy jest na podlodze
 		if (Physics2D.OverlapBox(punktUziemieniaChecker.position, wielkoscPunktuUziemienia, 0, podlogaLayer))
 		{
             czySkacze=false;
@@ -121,8 +124,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Run(1);
-        
+        Run(1.5f);
     }
 
     //Wowylywane w inskeptorze
@@ -134,10 +136,10 @@ public class PlayerController : MonoBehaviour
         //Obliczenie sily grawitacji uzywajac wbudowanej grawitacji Unity
         skalaGrawitacji = silaGrawitacji / Physics2D.gravity.y; 
         
+        silaSkoku = Mathf.Abs(silaGrawitacji) * czasWierzcholkuSkoku;
+
         silaAkceleracjiBiegania = (50 * akceleracjaBiegania) / maksPredBiegania;
         silaDeakceleracjiBiegania = (50 * deakceleracjaBiegania) / maksPredBiegania;
-
-        silaSkoku = Mathf.Abs(silaGrawitacji) * czasWierzcholkuSkoku;
 
         //Obliczenie akceleracji i deakceleracji na podstawie "zacisniecia" wartosci pomiedzy 0.01f a 
         // maksymalna predkoscia, w ten sposob gracz nie bedzie szybszy niz zaasygnowana predkosc
@@ -147,41 +149,47 @@ public class PlayerController : MonoBehaviour
     }
 
     // <!-- Metody poruszania gracza --!>
+    
     private void Run(float lerpAmount)
     {
-        
+
         float predkoscDocelowa = moveInput.x * maksPredBiegania;
         predkoscDocelowa = Mathf.Lerp(rb.velocity.x, predkoscDocelowa, lerpAmount);
 
-        //condition ? expression_if_true : expression_if_false; FYI
-        float przyspieszenie = (Mathf.Abs(predkoscDocelowa) > 0.01f) ? silaAkceleracjiBiegania : silaDeakceleracjiBiegania;
+        float wspolAkceleracji;
+        //Jeśli predkoscDocelowa wynosi wiecej niz 0.01f to wspolAkceleracji przyjmuje wartosc silaAkceleracjiBiegania, jesli wartosc jest mniejsza to przyjmuje wartosc silaDeakceleracjiBiegania.
+        wspolAkceleracji = (Mathf.Abs(predkoscDocelowa) > 0.01f) ? silaAkceleracjiBiegania : silaDeakceleracjiBiegania;
 
         float roznicaPredkosci = predkoscDocelowa - rb.velocity.x;
-        float movement = roznicaPredkosci * przyspieszenie;
+        float movement = roznicaPredkosci * wspolAkceleracji;
+
+        //Debug.Log("Movespeed gracza: "+movement);
+
+        rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
 
         //float horizontalVelocity = rb.velocity.x;
         //horizontalVelocity += moveInput.x;
         //horizontalVelocity *= Mathf.Pow(1f - tlumienieAkceleracji, Time.deltaTime*5f);
 
         //rb.velocity = new Vector2(horizontalVelocity, 0f);
-        rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
-        
 
-        if(moveInput.x != 0)
-        {
-            SprawdzenieZwrotu(moveInput.x>0);
-        }
+        // if(moveInput.x != 0)
+        // {
+        //     SprawdzenieZwrotu(moveInput.x>0);
+        // }
     }
+    
 
     private void Jump()
     {
-        /*if(rb.velocity.y < 0)
+        /*if(czySkacze && rb.velocity.y < 0)
         {
             rb.gravityScale = silaGrawitacji * 1.5f; //Zwiekszenie grawitacji podczas spadania
         } else 
         {
             rb.gravityScale = silaGrawitacji;
-        }*/
+        }
+        */
         //TO TEST
         //rb.velocity.y = 0;
         
@@ -237,14 +245,18 @@ public class PlayerController : MonoBehaviour
 
     private void Obrot()
     {
-        Vector3 skala = transform.localScale;
-        skala.x *= -1; //skala.x = skala.x * (-1)
-        transform.localScale = skala;
-
-        zwrotPrawo = !zwrotPrawo;
-        //Debug.Log("Zwrot Prawo wartosc: " + zwrotPrawo);
+        if(zwrotPrawo && moveInput.x < 0f || !zwrotPrawo && moveInput.x > 0f)
+        {
+            zwrotPrawo = !zwrotPrawo;
+            Vector3 skala = transform.localScale;
+            skala.x *= -1f; //skala.x = skala.x * (-1)
+            transform.localScale = skala;
+            //Debug.Log("Zwrot Prawo wartosc: " + zwrotPrawo);
+        }
+        
     }
 
+    /*
     public void SprawdzenieZwrotu(bool czyRuszaWPrawo)
     {
         if(czyRuszaWPrawo != zwrotPrawo)
@@ -252,4 +264,5 @@ public class PlayerController : MonoBehaviour
             Obrot();
         }
     }
+    */
 }
