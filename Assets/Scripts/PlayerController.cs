@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public Rigidbody2D rb {get; private set;} //public read, private write
+    public PlayerData Data;
     public bool zwrotPrawo {get; private set;}
     static public bool czySkacze {get; private set;}
 
@@ -34,47 +35,6 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private LayerMask podlogaLayer;
 
-    
-    // <!-- PRZENIESIONE Z PLIKU PLAYER DATA --!>
-
-    [Header("Grawitacja")] //Latwe podzielenie inspektora i kodu na czesci
-    //Daje wieksza przejrzystosc kodu
-    public float silaGrawitacji;
-    public float skalaGrawitacji;
-
-
-    [Space(5)]
-    public float multiplikatorSpadGrawitacji;
-    public float maksPredSpadania;
-
-    /*
-   	public float multiplikatorSzybkiegoSpadania; //Kontrola szybkiego spadania przez gracza
-	public float maksPredSzybkiegoSpadania;
-    */
-
-    [Space(10)] //[Space()] tworzy odstep pomiedzy wierszami w Inspektorze
-    [Header("Bieganie")]
-    //public float predkoscBiegania;
-    public float maksPredBiegania;
-    public float akceleracjaBiegania; //predkosc z jaka gracz osiaga maksymanlna predkosc
-    // public float tlumienieAkceleracji;
-    [HideInInspector] public float silaAkceleracjiBiegania; //Ta siła jest dodawana do gracza
-    public float deakceleracjaBiegania;
-    [HideInInspector] public float silaDeakceleracjiBiegania; //Ta siła jest dodawana do gracza
-    
-    // [Space(5)]
-    // [Range(0f, 1)] public float akceleracjaWPowietrzu;
-    // [Range(0f, 1)] public float deakceleracjaWPowietrzu;
-    //[Range(0f,1)] sprawia ze zmienne sa w zakresie od 0 do 1 float, jako slider w inspektorze
-
-    [Header("Skakanie")]
-    public float wysokoscSkoku;
-    public float czasWierzcholkuSkoku; //Czas z jakim gracz ma osiagnac najwyzszy punkt skoku
-    public float silaSkoku;
-    private int coyoteTime=0; //Czas kiedy gracz moze skoczyc po 'spadnieciu' z podloza
-    private float jumpBufferTime = 0.2f; //Bufor kiedy gracz moze zkolejkowac
-    private float jumpBufferCounter;
-
 
 
 
@@ -85,7 +45,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        UstawienieGrawitacji(skalaGrawitacji);
+        UstawienieGrawitacji(Data.skalaGrawitacji);
         zwrotPrawo = true;
     }
 
@@ -103,7 +63,7 @@ public class PlayerController : MonoBehaviour
 		if (Physics2D.OverlapBox(punktUziemieniaChecker.position, wielkoscPunktuUziemienia, 0, podlogaLayer))
 		{
             czySkacze=false;
-            coyoteTime = 0;
+            Data.coyoteTime = 0;
         } else {
             czySkacze = true;
         }
@@ -111,14 +71,14 @@ public class PlayerController : MonoBehaviour
         //Coyote time zaczyna sie naliczac kiedy nie jestem na podlodze i wynosi 0 lub wiecej, nalicza sie w petli do momentu jak dobije do limitu. Twardy reset jest poprzez odpadniecie na platforme. 
         // Po dobiciu do limitu wartosc coyoteTime zmieniona jest na -1 w celu unikniecia nieskonczonej petli 0->limit->0->limit->... 
 
-        if(coyoteTime > 200)
+        if(Data.coyoteTime > 200)
         {
-            coyoteTime = -1;
+            Data.coyoteTime = -1;
         }
 
-        if(czySkacze && coyoteTime>=0)
+        if(czySkacze && Data.coyoteTime>=0)
         {
-            coyoteTime++;
+            Data.coyoteTime++;
         }
     }
 
@@ -127,43 +87,23 @@ public class PlayerController : MonoBehaviour
         Run(1.5f);
     }
 
-    //Wowylywane w inskeptorze
-    private void OnValidate()
-    {
-        
-        silaGrawitacji = -(2*wysokoscSkoku) / (czasWierzcholkuSkoku * czasWierzcholkuSkoku); 
-        
-        //Obliczenie sily grawitacji uzywajac wbudowanej grawitacji Unity
-        skalaGrawitacji = silaGrawitacji / Physics2D.gravity.y; 
-        
-        silaSkoku = Mathf.Abs(silaGrawitacji) * czasWierzcholkuSkoku;
-
-        silaAkceleracjiBiegania = (50 * akceleracjaBiegania) / maksPredBiegania;
-        silaDeakceleracjiBiegania = (50 * deakceleracjaBiegania) / maksPredBiegania;
-
-        //Obliczenie akceleracji i deakceleracji na podstawie "zacisniecia" wartosci pomiedzy 0.01f a 
-        // maksymalna predkoscia, w ten sposob gracz nie bedzie szybszy niz zaasygnowana predkosc
-        akceleracjaBiegania = Mathf.Clamp(akceleracjaBiegania, 0.01f, maksPredBiegania);
-        deakceleracjaBiegania = Mathf.Clamp(deakceleracjaBiegania, 0.01f, maksPredBiegania);
-        
-    }
 
     // <!-- Metody poruszania gracza --!>
     
     private void Run(float lerpAmount)
     {
 
-        float predkoscDocelowa = moveInput.x * maksPredBiegania;
+        float predkoscDocelowa = moveInput.x * Data.maksPredBiegania;
         predkoscDocelowa = Mathf.Lerp(rb.velocity.x, predkoscDocelowa, lerpAmount);
 
         float wspolAkceleracji;
         //Jeśli predkoscDocelowa wynosi wiecej niz 0.01f to wspolAkceleracji przyjmuje wartosc silaAkceleracjiBiegania, jesli wartosc jest mniejsza to przyjmuje wartosc silaDeakceleracjiBiegania.
-        wspolAkceleracji = (Mathf.Abs(predkoscDocelowa) > 0.01f) ? silaAkceleracjiBiegania : silaDeakceleracjiBiegania;
+        wspolAkceleracji = (Mathf.Abs(predkoscDocelowa) > 0.01f) ? Data.silaAkceleracjiBiegania : Data.silaDeakceleracjiBiegania;
 
         float roznicaPredkosci = predkoscDocelowa - rb.velocity.x;
         float movement = roznicaPredkosci * wspolAkceleracji;
 
-        //Debug.Log("Movespeed gracza: "+movement);
+        Debug.Log("Movespeed gracza: "+movement);
 
         rb.AddForce(movement * Vector2.right, ForceMode2D.Force);
 
@@ -195,23 +135,23 @@ public class PlayerController : MonoBehaviour
         
         if(Input.GetButtonDown("Jump"))
         {
-            jumpBufferCounter = jumpBufferTime;
+            Data.jumpBufferCounter = Data.jumpBufferTime;
             // Debug.Log(coyoteTime);
             //Jesli gracz jest na podlodze LUB spadl z podlogi, to moze skoczyc
             if(!czySkacze)
             {
                 // Debug.Log("Zwykly skok + coyoteTime = "+coyoteTime);
-                rb.AddForce(Vector2.up * silaSkoku, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * Data.silaSkoku, ForceMode2D.Impulse);
                 doubleJumpAvailable = true;
-                jumpBufferCounter = 0;
+                Data.jumpBufferCounter = 0;
             }
 
-            if (coyoteTime > 0 && !doubleJumpAvailable) {
+            if (Data.coyoteTime > 0 && !doubleJumpAvailable) {
                 // Debug.Log("Coyote skok + coyoteTime = "+coyoteTime);
-                rb.AddForce(Vector2.up * silaSkoku, ForceMode2D.Impulse);
+                rb.AddForce(Vector2.up * Data.silaSkoku, ForceMode2D.Impulse);
                 doubleJumpAvailable = false;
-                coyoteTime = -1; //limit do pojedynczego skoku coyote, twardy reset przez stycznosc z podloga
-                jumpBufferCounter = 0;
+                Data.coyoteTime = -1; //limit do pojedynczego skoku coyote, twardy reset przez stycznosc z podloga
+                Data.jumpBufferCounter = 0;
             }
 
             if(czySkacze && doubleJumpAvailable)
@@ -219,21 +159,21 @@ public class PlayerController : MonoBehaviour
                 if(Input.GetButtonDown("Jump"))
                 {
                     // Debug.Log("Double skok + coyoteTime = "+coyoteTime);
-                    rb.AddForce(Vector2.up * silaSkoku * 0.75f, ForceMode2D.Impulse);
+                    rb.AddForce(Vector2.up * Data.silaSkoku * 0.75f, ForceMode2D.Impulse);
                     doubleJumpAvailable = false;
-                    jumpBufferCounter = 0;
+                    Data.jumpBufferCounter = 0;
                 }
             }          
         } else {
-            jumpBufferCounter -= Time.deltaTime;
+            Data.jumpBufferCounter -= Time.deltaTime;
         }
         
-        if(!czySkacze && jumpBufferCounter > 0f)
+        if(!czySkacze && Data.jumpBufferCounter > 0f)
         {
             // Debug.Log("Bufor skoku");
-            rb.AddForce(Vector2.up * silaSkoku, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * Data.silaSkoku, ForceMode2D.Impulse);
             doubleJumpAvailable = false; //wartosc true powoduje petle skoku regular->double->buffer->double->buffer->...
-            jumpBufferCounter=0;
+            Data.jumpBufferCounter=0;
         }
     }
 
@@ -255,14 +195,4 @@ public class PlayerController : MonoBehaviour
         }
         
     }
-
-    /*
-    public void SprawdzenieZwrotu(bool czyRuszaWPrawo)
-    {
-        if(czyRuszaWPrawo != zwrotPrawo)
-        {
-            Obrot();
-        }
-    }
-    */
 }

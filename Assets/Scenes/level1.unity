@@ -1477,23 +1477,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c05b54bc2f5351c40b3bc2a24096118f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: baf539c6699945f47aafd7aed2269ade, type: 2}
   punktUziemieniaChecker: {fileID: 1872128752}
   wielkoscPunktuUziemienia: {x: 0.49, y: 0.03}
   podlogaLayer:
     serializedVersion: 2
     m_Bits: 8
-  silaGrawitacji: -32
-  skalaGrawitacji: 3.2619774
-  multiplikatorSpadGrawitacji: 3.54
-  maksPredSpadania: 0
-  maksPredBiegania: 10
-  akceleracjaBiegania: 4
-  silaAkceleracjiBiegania: 20
-  deakceleracjaBiegania: 3.5
-  silaDeakceleracjiBiegania: 17.5
-  wysokoscSkoku: 1
-  czasWierzcholkuSkoku: 0.25
-  silaSkoku: 8
 --- !u!1 &929801598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1796,6 +1785,7 @@ GameObject:
   - component: {fileID: 1564817050}
   - component: {fileID: 1564817052}
   - component: {fileID: 1564817051}
+  - component: {fileID: 1564817053}
   m_Layer: 0
   m_Name: Timer
   m_TagString: TimerText
@@ -1817,11 +1807,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1611204974}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 10.68}
-  m_SizeDelta: {x: 40, y: 5}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10.01947, y: 4.543915}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564817051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1956,6 +1946,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1564817053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564817049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3541e155be98aaa4f96881e1839c5a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemaining: 100
+  player: {fileID: 915136515}
+  timerText: {fileID: 1564817051}
 --- !u!1 &1611204970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,7 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeRemaining: 100
-  timeRunning: 0
+  player: {fileID: 0}
   timerText: {fileID: 1564817051}
 --- !u!1 &1872128751
 GameObject:

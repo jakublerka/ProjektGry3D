@@ -9,18 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f96a121490c5f6a4690d9a3ce018196e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f52b02a3010e4d46ab9268043ca0042, type: 3}
   m_Name: Player Data
   m_EditorClassIdentifier: 
-  silaGrawitacji: -32
-  skalaGrawitacji: 3.2619774
-  multiplikatorSpadGrawitacji: 2.13
-  maksPredSpadania: 3.43
-  maksPredBiegania: 7
-  akceleracjaBiegania: 3
-  silaAkceleracjiBiegania: 21.428572
-  deakceleracjaBiegania: 2.15
-  silaDeakceleracjiBiegania: 15.357143
+  silaGrawitacji: 32
+  skalaGrawitacji: 3.261977
+  multiplikatorSpadGrawitacji: 3.54
+  maksPredSpadania: 2.24
+  maksPredBiegania: 10
+  akceleracjaBiegania: 4
+  silaAkceleracjiBiegania: 20
+  deakceleracjaBiegania: 3.35
+  silaDeakceleracjiBiegania: 16.75
   wysokoscSkoku: 1
   czasWierzcholkuSkoku: 0.25
   silaSkoku: 8
+  coyoteTime: 0
+  jumpBufferTime: 0.2
+  jumpBufferCounter: -1.4712275
