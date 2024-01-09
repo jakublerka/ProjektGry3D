@@ -50,6 +50,6 @@ public class Timer : MonoBehaviour
         this.timeRemaining = timeRemaining;
         float minuty = Mathf.FloorToInt(timeRemaining / 60);
         float sekundy = Mathf.FloorToInt(timeRemaining % 60);
-        timerText.text = string.Format("Time: {0:00}:{1:00}", minuty, sekundy);
+        timerText.text = string.Format("Czas: {0:00}:{1:00}", minuty, sekundy);
     }
 }
