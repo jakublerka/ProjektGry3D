@@ -31,10 +31,8 @@ public class Timer : MonoBehaviour
 
             if (player != null)
             {
-                // Convert player's position to screen space
                 Vector2 screenPos = Camera.main.WorldToScreenPoint(player.position);
                 
-                // Set the position of the timer to the top left corner
                 timerText.rectTransform.anchoredPosition = new Vector2(screenPos.x, Screen.height - screenPos.y);
             }
         } else {

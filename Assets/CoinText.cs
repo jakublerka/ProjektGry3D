@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SC_CoinText : MonoBehaviour
 {
-    Text counterText;
+    public TextMeshProUGUI counterText;
 
     void Start()
     {
-        counterText = GetComponent<Text>();
+        counterText = GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
