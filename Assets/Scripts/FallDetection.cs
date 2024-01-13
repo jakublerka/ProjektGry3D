@@ -7,7 +7,8 @@ public class DeathFall : MonoBehaviour
     {
         if (gameObject.transform.position.y <= 0) //detekcja upadku ustawiona na -10
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //prze³adowanie sceny, to-do
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //prze³adowanie sceny
+            SC_CoinCounter.totalCoins = 0; //reset stanu monet
         }
     }
 }
