@@ -6,12 +6,12 @@ public class domenu : MonoBehaviour
 {
     public void OnClick()
     {
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("Menu");
     }
 
     public void startScene()
     {
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("Menu");
 
     }
 }
