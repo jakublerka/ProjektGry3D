@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
 
     //Do zarzadzania czy level ma byc na czas, defaultowo nie.
     //public bool timeRunning;
-    public TextMeshPro timerText;
+    public TextMeshProUGUI timerText;
 
     // Update is called once per frame
     void Update()
@@ -33,7 +33,7 @@ public class Timer : MonoBehaviour
             {
                 Vector2 screenPos = Camera.main.WorldToScreenPoint(player.position);
                 
-                timerText.rectTransform.anchoredPosition = new Vector2(screenPos.x, Screen.height - screenPos.y);
+                //timerText.rectTransform.anchoredPosition = new Vector2(screenPos.x, Screen.height - screenPos.y);
             }
         } else {
             timerText.text="Koniec czasu!";
@@ -48,6 +48,7 @@ public class Timer : MonoBehaviour
         this.timeRemaining = timeRemaining;
         float minuty = Mathf.FloorToInt(timeRemaining / 60);
         float sekundy = Mathf.FloorToInt(timeRemaining % 60);
-        timerText.text = string.Format("Czas: {0:00}:{1:00}", minuty, sekundy);
+        string timeToDisplay = string.Format("Czas: {0:00}:{1:00}", minuty, sekundy);
+        timerText.text = timeToDisplay;
     }
 }

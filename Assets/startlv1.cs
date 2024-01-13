@@ -8,4 +8,10 @@ public class startlv1 : MonoBehaviour
     {
         SceneManager.LoadScene("level1");
     }
+
+    public void startScene()
+    {
+        SceneManager.LoadScene("level1");
+
+    }
 }
