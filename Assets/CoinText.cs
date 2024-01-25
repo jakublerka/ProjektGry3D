@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 //using TMPro;
 using UnityEngine;
@@ -17,4 +17,4 @@ public class SC_CoinText : MonoBehaviour
     {
         counterText.text = SC_CoinCounter.totalCoins.ToString();
     }
-}
+}*/

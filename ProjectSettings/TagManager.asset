@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - TimerText
+  - Cloud
+  - Tree
+  - TutorialTextTag
+  - Flower
+  - Bush
+  - Coin
   layers:
   - Default
   - TransparentFX

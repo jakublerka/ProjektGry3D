@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 10955383}
   m_Layer: 0
   m_Name: Asset 13 (67)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 16948195}
   m_Layer: 0
   m_Name: Asset 15 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 19399937}
   m_Layer: 0
   m_Name: Asset 11 (68)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 19563629}
   m_Layer: 0
   m_Name: Asset 15 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 38050683}
   m_Layer: 0
   m_Name: Cloud_1 (18)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 41491641}
   m_Layer: 0
   m_Name: Cloud_1 (30)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 45898739}
   m_Layer: 0
   m_Name: Asset 11 (67)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -873,7 +873,7 @@ GameObject:
   - component: {fileID: 46153122}
   m_Layer: 0
   m_Name: Asset 15 (65)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 75822292}
   m_Layer: 0
   m_Name: Asset 11 (63)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 75863521}
   m_Layer: 0
   m_Name: Asset 15 (62)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1495,7 +1495,7 @@ GameObject:
   - component: {fileID: 93718100}
   m_Layer: 0
   m_Name: Cloud_1 (53)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1579,7 +1579,7 @@ GameObject:
   - component: {fileID: 96926878}
   m_Layer: 0
   m_Name: Cloud_1 (31)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 105318935}
   m_Layer: 0
   m_Name: coin (110)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1811,6 +1811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &105318937
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1890,7 +1891,7 @@ GameObject:
   - component: {fileID: 107433095}
   m_Layer: 0
   m_Name: Cloud_1 (66)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1974,7 +1975,7 @@ GameObject:
   - component: {fileID: 117455729}
   m_Layer: 0
   m_Name: Asset 11 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2058,7 +2059,7 @@ GameObject:
   - component: {fileID: 123914866}
   m_Layer: 0
   m_Name: Asset 15 (66)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2142,7 +2143,7 @@ GameObject:
   - component: {fileID: 145905597}
   m_Layer: 0
   m_Name: Cloud_1 (83)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2226,7 +2227,7 @@ GameObject:
   - component: {fileID: 150314249}
   m_Layer: 0
   m_Name: Asset 13 (70)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2310,7 +2311,7 @@ GameObject:
   - component: {fileID: 152111501}
   m_Layer: 0
   m_Name: Asset 15 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2394,7 +2395,7 @@ GameObject:
   - component: {fileID: 158736785}
   m_Layer: 0
   m_Name: Asset 11 (62)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2478,7 +2479,7 @@ GameObject:
   - component: {fileID: 160370600}
   m_Layer: 0
   m_Name: Cloud_1 (59)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2564,7 +2565,7 @@ GameObject:
   - component: {fileID: 176381905}
   m_Layer: 0
   m_Name: coin (106)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2626,6 +2627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &176381907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2789,7 +2791,7 @@ GameObject:
   - component: {fileID: 213657507}
   m_Layer: 0
   m_Name: Cloud_1 (56)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2873,7 +2875,7 @@ GameObject:
   - component: {fileID: 219481372}
   m_Layer: 0
   m_Name: Cloud_1 (38)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2959,7 +2961,7 @@ GameObject:
   - component: {fileID: 222451199}
   m_Layer: 0
   m_Name: coin (101)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3021,6 +3023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &222451201
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3102,7 +3105,7 @@ GameObject:
   - component: {fileID: 225942057}
   m_Layer: 0
   m_Name: coin (100)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3164,6 +3167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &225942059
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3243,7 +3247,7 @@ GameObject:
   - component: {fileID: 228655306}
   m_Layer: 0
   m_Name: Asset 15 (64)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3411,7 +3415,7 @@ GameObject:
   - component: {fileID: 231725266}
   m_Layer: 0
   m_Name: Asset 7 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3579,7 +3583,7 @@ GameObject:
   - component: {fileID: 254487714}
   m_Layer: 0
   m_Name: Asset 11 (73)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3663,7 +3667,7 @@ GameObject:
   - component: {fileID: 272352259}
   m_Layer: 0
   m_Name: Cloud_1 (43)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3747,7 +3751,7 @@ GameObject:
   - component: {fileID: 277557744}
   m_Layer: 0
   m_Name: Cloud_1 (17)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3831,7 +3835,7 @@ GameObject:
   - component: {fileID: 285692785}
   m_Layer: 0
   m_Name: Asset 15 (67)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3915,7 +3919,7 @@ GameObject:
   - component: {fileID: 298557919}
   m_Layer: 0
   m_Name: Asset 13 (73)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3999,7 +4003,7 @@ GameObject:
   - component: {fileID: 305540399}
   m_Layer: 0
   m_Name: Cloud_1 (25)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4083,7 +4087,7 @@ GameObject:
   - component: {fileID: 309860731}
   m_Layer: 0
   m_Name: Cloud_1 (37)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4251,7 +4255,7 @@ GameObject:
   - component: {fileID: 313086377}
   m_Layer: 0
   m_Name: Asset 11 (65)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4335,7 +4339,7 @@ GameObject:
   - component: {fileID: 318630278}
   m_Layer: 0
   m_Name: Cloud_1 (19)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4419,7 +4423,7 @@ GameObject:
   - component: {fileID: 325072810}
   m_Layer: 0
   m_Name: Cloud_1 (23)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4637,7 +4641,7 @@ GameObject:
   - component: {fileID: 328928854}
   m_Layer: 0
   m_Name: Asset 11 (66)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4721,7 +4725,7 @@ GameObject:
   - component: {fileID: 336177607}
   m_Layer: 0
   m_Name: Asset 7 (9)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6595,7 +6599,7 @@ GameObject:
   - component: {fileID: 360201268}
   m_Layer: 0
   m_Name: Asset 15 (74)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6679,7 +6683,7 @@ GameObject:
   - component: {fileID: 362671347}
   m_Layer: 0
   m_Name: Cloud_1 (49)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6763,7 +6767,7 @@ GameObject:
   - component: {fileID: 370596548}
   m_Layer: 0
   m_Name: Asset 11 (64)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6847,7 +6851,7 @@ GameObject:
   - component: {fileID: 372481787}
   m_Layer: 0
   m_Name: Asset 13 (72)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6931,7 +6935,7 @@ GameObject:
   - component: {fileID: 379796084}
   m_Layer: 0
   m_Name: Asset 7 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7017,7 +7021,7 @@ GameObject:
   - component: {fileID: 388292969}
   m_Layer: 0
   m_Name: coin (113)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7079,6 +7083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &388292971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7158,7 +7163,7 @@ GameObject:
   - component: {fileID: 394129948}
   m_Layer: 0
   m_Name: Asset 11 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7326,7 +7331,7 @@ GameObject:
   - component: {fileID: 415925350}
   m_Layer: 0
   m_Name: Asset 7 (67)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7412,7 +7417,7 @@ GameObject:
   - component: {fileID: 418849540}
   m_Layer: 0
   m_Name: coin (65)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7474,6 +7479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &418849542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7637,7 +7643,7 @@ GameObject:
   - component: {fileID: 428606125}
   m_Layer: 0
   m_Name: Asset 13 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7721,7 +7727,7 @@ GameObject:
   - component: {fileID: 445360054}
   m_Layer: 0
   m_Name: Asset 7 (70)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7805,7 +7811,7 @@ GameObject:
   - component: {fileID: 450873205}
   m_Layer: 0
   m_Name: Cloud_1 (62)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7891,7 +7897,7 @@ GameObject:
   - component: {fileID: 463872009}
   m_Layer: 0
   m_Name: coin (86)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7953,6 +7959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &463872011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8032,7 +8039,7 @@ GameObject:
   - component: {fileID: 466216274}
   m_Layer: 0
   m_Name: Cloud_1 (44)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8116,7 +8123,7 @@ GameObject:
   - component: {fileID: 476856211}
   m_Layer: 0
   m_Name: Cloud_1 (76)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8200,7 +8207,7 @@ GameObject:
   - component: {fileID: 480965148}
   m_Layer: 0
   m_Name: Asset 7 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8368,7 +8375,7 @@ GameObject:
   - component: {fileID: 507161242}
   m_Layer: 0
   m_Name: Asset 15 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8452,7 +8459,7 @@ GameObject:
   - component: {fileID: 516835191}
   m_Layer: 0
   m_Name: Cloud_1 (93)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8610,7 +8617,7 @@ GameObject:
   - component: {fileID: 530759283}
   m_Layer: 0
   m_Name: coin (111)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8672,6 +8679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &530759285
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8751,7 +8759,7 @@ GameObject:
   - component: {fileID: 532419769}
   m_Layer: 0
   m_Name: Asset 13 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8837,7 +8845,7 @@ GameObject:
   - component: {fileID: 536761297}
   m_Layer: 0
   m_Name: coin (99)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8899,6 +8907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &536761299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8978,7 +8987,7 @@ GameObject:
   - component: {fileID: 537709704}
   m_Layer: 0
   m_Name: Cloud_1 (47)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9062,7 +9071,7 @@ GameObject:
   - component: {fileID: 547754477}
   m_Layer: 0
   m_Name: Cloud_1 (24)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9146,7 +9155,7 @@ GameObject:
   - component: {fileID: 550718463}
   m_Layer: 0
   m_Name: Cloud_1 (80)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9278,7 +9287,7 @@ GameObject:
   - component: {fileID: 565305145}
   m_Layer: 0
   m_Name: Cloud_1 (16)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9364,7 +9373,7 @@ GameObject:
   - component: {fileID: 570401080}
   m_Layer: 0
   m_Name: coin (78)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9426,6 +9435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &570401082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9505,7 +9515,7 @@ GameObject:
   - component: {fileID: 570551298}
   m_Layer: 0
   m_Name: Asset 7 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9589,7 +9599,7 @@ GameObject:
   - component: {fileID: 572312366}
   m_Layer: 0
   m_Name: Asset 15 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9673,7 +9683,7 @@ GameObject:
   - component: {fileID: 589370496}
   m_Layer: 0
   m_Name: Cloud_1 (87)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9757,7 +9767,7 @@ GameObject:
   - component: {fileID: 603833876}
   m_Layer: 0
   m_Name: Cloud_1 (58)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9841,7 +9851,7 @@ GameObject:
   - component: {fileID: 617492295}
   m_Layer: 0
   m_Name: Asset 7 (71)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9925,7 +9935,7 @@ GameObject:
   - component: {fileID: 622342936}
   m_Layer: 0
   m_Name: Cloud_1 (89)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10009,7 +10019,7 @@ GameObject:
   - component: {fileID: 645854501}
   m_Layer: 0
   m_Name: Asset 13 (59)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10093,7 +10103,7 @@ GameObject:
   - component: {fileID: 653583592}
   m_Layer: 0
   m_Name: Cloud_1 (33)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10177,7 +10187,7 @@ GameObject:
   - component: {fileID: 669252977}
   m_Layer: 0
   m_Name: Cloud_1 (78)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10306,7 +10316,7 @@ GameObject:
   - component: {fileID: 681951074}
   m_Layer: 0
   m_Name: Asset 13 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10390,7 +10400,7 @@ GameObject:
   - component: {fileID: 682124755}
   m_Layer: 0
   m_Name: Cloud_1 (74)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10560,7 +10570,7 @@ GameObject:
   - component: {fileID: 687876942}
   m_Layer: 0
   m_Name: coin (76)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10622,6 +10632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &687876944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10701,7 +10712,7 @@ GameObject:
   - component: {fileID: 688650646}
   m_Layer: 0
   m_Name: Asset 13 (68)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10787,7 +10798,7 @@ GameObject:
   - component: {fileID: 692546454}
   m_Layer: 0
   m_Name: coin (103)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10849,6 +10860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &692546456
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10928,7 +10940,7 @@ GameObject:
   - component: {fileID: 695475523}
   m_Layer: 0
   m_Name: Asset 13 (60)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11012,7 +11024,7 @@ GameObject:
   - component: {fileID: 697711275}
   m_Layer: 0
   m_Name: Asset 7 (61)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11096,7 +11108,7 @@ GameObject:
   - component: {fileID: 701026697}
   m_Layer: 0
   m_Name: Asset 13 (73)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11180,7 +11192,7 @@ GameObject:
   - component: {fileID: 719255372}
   m_Layer: 0
   m_Name: Cloud_1 (71)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11264,7 +11276,7 @@ GameObject:
   - component: {fileID: 719864167}
   m_Layer: 0
   m_Name: Asset 13 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11694,7 +11706,7 @@ GameObject:
   - component: {fileID: 758664579}
   m_Layer: 0
   m_Name: Asset 15 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11778,7 +11790,7 @@ GameObject:
   - component: {fileID: 759931790}
   m_Layer: 0
   m_Name: Asset 11 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11864,7 +11876,7 @@ GameObject:
   - component: {fileID: 761693004}
   m_Layer: 0
   m_Name: coin (114)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11926,6 +11938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &761693006
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12007,7 +12020,7 @@ GameObject:
   - component: {fileID: 764228133}
   m_Layer: 0
   m_Name: coin (80)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12069,6 +12082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &764228135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12150,7 +12164,7 @@ GameObject:
   - component: {fileID: 769577531}
   m_Layer: 0
   m_Name: coin (90)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12212,6 +12226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &769577533
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12291,7 +12306,7 @@ GameObject:
   - component: {fileID: 773458344}
   m_Layer: 0
   m_Name: Cloud_1 (15)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12375,7 +12390,7 @@ GameObject:
   - component: {fileID: 797435525}
   m_Layer: 0
   m_Name: Cloud_1 (50)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12543,7 +12558,7 @@ GameObject:
   - component: {fileID: 805363617}
   m_Layer: 0
   m_Name: Asset 13 (64)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12627,7 +12642,7 @@ GameObject:
   - component: {fileID: 807238292}
   m_Layer: 0
   m_Name: Cloud_1 (57)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12711,7 +12726,7 @@ GameObject:
   - component: {fileID: 822212046}
   m_Layer: 0
   m_Name: Cloud_1 (21)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12795,7 +12810,7 @@ GameObject:
   - component: {fileID: 824847453}
   m_Layer: 0
   m_Name: Cloud_1 (97)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12879,7 +12894,7 @@ GameObject:
   - component: {fileID: 828795356}
   m_Layer: 0
   m_Name: Asset 7 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12965,7 +12980,7 @@ GameObject:
   - component: {fileID: 829608655}
   m_Layer: 0
   m_Name: coin (74)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13027,6 +13042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &829608657
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13108,7 +13124,7 @@ GameObject:
   - component: {fileID: 829702447}
   m_Layer: 0
   m_Name: coin (94)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13170,6 +13186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &829702449
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13249,7 +13266,7 @@ GameObject:
   - component: {fileID: 833093926}
   m_Layer: 0
   m_Name: Asset 13 (66)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13417,7 +13434,7 @@ GameObject:
   - component: {fileID: 850901658}
   m_Layer: 0
   m_Name: Cloud_1 (22)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13501,7 +13518,7 @@ GameObject:
   - component: {fileID: 867592366}
   m_Layer: 0
   m_Name: Asset 15 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13587,7 +13604,7 @@ GameObject:
   - component: {fileID: 867621971}
   m_Layer: 0
   m_Name: coin (95)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13649,6 +13666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &867621973
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13728,7 +13746,7 @@ GameObject:
   - component: {fileID: 868334464}
   m_Layer: 0
   m_Name: Asset 11 (58)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13812,7 +13830,7 @@ GameObject:
   - component: {fileID: 877504935}
   m_Layer: 0
   m_Name: Asset 11 (72)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13898,7 +13916,7 @@ GameObject:
   - component: {fileID: 879728280}
   m_Layer: 0
   m_Name: coin (81)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13960,6 +13978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &879728282
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14041,7 +14060,7 @@ GameObject:
   - component: {fileID: 883614954}
   m_Layer: 0
   m_Name: coin (107)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14103,6 +14122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &883614956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14182,7 +14202,7 @@ GameObject:
   - component: {fileID: 884578516}
   m_Layer: 0
   m_Name: Asset 7 (65)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14266,7 +14286,7 @@ GameObject:
   - component: {fileID: 894537564}
   m_Layer: 0
   m_Name: Cloud_1 (63)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14558,6 +14578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced42ee5a52fbf145823a049f852954f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 3
+  healthText: {fileID: 0}
 --- !u!114 &915136525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14584,7 +14606,7 @@ GameObject:
   - component: {fileID: 920159256}
   m_Layer: 0
   m_Name: coin (109)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14646,6 +14668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &920159258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14725,7 +14748,7 @@ GameObject:
   - component: {fileID: 925065341}
   m_Layer: 0
   m_Name: Cloud_1 (42)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14809,7 +14832,7 @@ GameObject:
   - component: {fileID: 926676755}
   m_Layer: 0
   m_Name: Asset 11 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14971,7 +14994,7 @@ GameObject:
   - component: {fileID: 948563103}
   m_Layer: 0
   m_Name: Cloud_1 (65)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15057,7 +15080,7 @@ GameObject:
   - component: {fileID: 967498931}
   m_Layer: 0
   m_Name: coin (102)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15119,6 +15142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &967498933
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15198,7 +15222,7 @@ GameObject:
   - component: {fileID: 978741420}
   m_Layer: 0
   m_Name: Asset 13 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15282,7 +15306,7 @@ GameObject:
   - component: {fileID: 983040280}
   m_Layer: 0
   m_Name: Cloud_1 (95)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15452,7 +15476,7 @@ GameObject:
   - component: {fileID: 996251266}
   m_Layer: 0
   m_Name: coin (92)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15514,6 +15538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &996251268
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15593,7 +15618,7 @@ GameObject:
   - component: {fileID: 1005665619}
   m_Layer: 0
   m_Name: Asset 15 (69)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15677,7 +15702,7 @@ GameObject:
   - component: {fileID: 1008925052}
   m_Layer: 0
   m_Name: Asset 13 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15761,7 +15786,7 @@ GameObject:
   - component: {fileID: 1010626057}
   m_Layer: 0
   m_Name: Cloud_1 (77)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15845,7 +15870,7 @@ GameObject:
   - component: {fileID: 1022570465}
   m_Layer: 0
   m_Name: Asset 7 (66)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15929,7 +15954,7 @@ GameObject:
   - component: {fileID: 1039563495}
   m_Layer: 0
   m_Name: Cloud_1 (79)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16013,7 +16038,7 @@ GameObject:
   - component: {fileID: 1041555144}
   m_Layer: 0
   m_Name: Cloud_1 (86)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16099,7 +16124,7 @@ GameObject:
   - component: {fileID: 1047633020}
   m_Layer: 0
   m_Name: coin (108)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16161,6 +16186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1047633022
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16242,7 +16268,7 @@ GameObject:
   - component: {fileID: 1047847400}
   m_Layer: 0
   m_Name: coin (84)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16304,6 +16330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1047847402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16385,7 +16412,7 @@ GameObject:
   - component: {fileID: 1051757044}
   m_Layer: 0
   m_Name: coin (91)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16447,6 +16474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1051757046
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16526,6 +16554,7 @@ GameObject:
   - component: {fileID: 1052802734}
   - component: {fileID: 1052802733}
   - component: {fileID: 1052802732}
+  - component: {fileID: 1052802736}
   m_Layer: 0
   m_Name: level
   m_TagString: Untagged
@@ -16700,6 +16729,22 @@ RectTransform:
   m_AnchoredPosition: {x: 9.71, y: 7.33}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1052802736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052802731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5f4328b1906f14a8fccb325981d020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitYPosition: 500
+  fadeDuration: 1
+  animationSpeed: 1
+  fadePerStep: 0.2
 --- !u!1 &1056688652
 GameObject:
   m_ObjectHideFlags: 0
@@ -16714,7 +16759,7 @@ GameObject:
   - component: {fileID: 1056688653}
   m_Layer: 0
   m_Name: coin (93)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16776,6 +16821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1056688655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16855,7 +16901,7 @@ GameObject:
   - component: {fileID: 1062904349}
   m_Layer: 0
   m_Name: Cloud_1 (92)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16972,7 +17018,7 @@ GameObject:
   - component: {fileID: 1085433127}
   m_Layer: 0
   m_Name: coin (87)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17034,6 +17080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1085433129
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17197,7 +17244,7 @@ GameObject:
   - component: {fileID: 1116442723}
   m_Layer: 0
   m_Name: Asset 11 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17281,7 +17328,7 @@ GameObject:
   - component: {fileID: 1132068388}
   m_Layer: 0
   m_Name: Cloud_1 (90)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17528,7 +17575,7 @@ GameObject:
   - component: {fileID: 1146129252}
   m_Layer: 0
   m_Name: Asset 7 (59)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17612,7 +17659,7 @@ GameObject:
   - component: {fileID: 1147018706}
   m_Layer: 0
   m_Name: Asset 15 (63)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17696,7 +17743,7 @@ GameObject:
   - component: {fileID: 1180073100}
   m_Layer: 0
   m_Name: Asset 15 (61)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17780,7 +17827,7 @@ GameObject:
   - component: {fileID: 1185139190}
   m_Layer: 0
   m_Name: Cloud_1 (35)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17864,7 +17911,7 @@ GameObject:
   - component: {fileID: 1196858412}
   m_Layer: 0
   m_Name: Cloud_1 (75)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17950,7 +17997,7 @@ GameObject:
   - component: {fileID: 1202779030}
   m_Layer: 0
   m_Name: coin (82)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18012,6 +18059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1202779032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18091,7 +18139,7 @@ GameObject:
   - component: {fileID: 1209691081}
   m_Layer: 0
   m_Name: Cloud_1 (82)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18175,7 +18223,7 @@ GameObject:
   - component: {fileID: 1224755585}
   m_Layer: 0
   m_Name: Asset 7 (71)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18259,7 +18307,7 @@ GameObject:
   - component: {fileID: 1227636330}
   m_Layer: 0
   m_Name: Asset 11 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18343,7 +18391,7 @@ GameObject:
   - component: {fileID: 1233206577}
   m_Layer: 0
   m_Name: Cloud_1 (88)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18427,7 +18475,7 @@ GameObject:
   - component: {fileID: 1241114489}
   m_Layer: 0
   m_Name: Cloud_1 (73)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18511,7 +18559,7 @@ GameObject:
   - component: {fileID: 1243262768}
   m_Layer: 0
   m_Name: Asset 7 (60)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18597,7 +18645,7 @@ GameObject:
   - component: {fileID: 1244218262}
   m_Layer: 0
   m_Name: coin (104)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18659,6 +18707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1244218264
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18740,7 +18789,7 @@ GameObject:
   - component: {fileID: 1250696568}
   m_Layer: 0
   m_Name: coin (71)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18802,6 +18851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1250696570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18881,7 +18931,7 @@ GameObject:
   - component: {fileID: 1260207806}
   m_Layer: 0
   m_Name: Asset 15 (60)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18965,7 +19015,7 @@ GameObject:
   - component: {fileID: 1265092367}
   m_Layer: 0
   m_Name: Cloud_1 (70)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19051,7 +19101,7 @@ GameObject:
   - component: {fileID: 1301661224}
   m_Layer: 0
   m_Name: coin (89)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19113,6 +19163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1301661226
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19194,7 +19245,7 @@ GameObject:
   - component: {fileID: 1317577685}
   m_Layer: 0
   m_Name: coin (73)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19256,6 +19307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1317577687
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19419,7 +19471,7 @@ GameObject:
   - component: {fileID: 1332350237}
   m_Layer: 0
   m_Name: Asset 11 (71)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19503,7 +19555,7 @@ GameObject:
   - component: {fileID: 1334060358}
   m_Layer: 0
   m_Name: Asset 15 (70)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19587,7 +19639,7 @@ GameObject:
   - component: {fileID: 1343875211}
   m_Layer: 0
   m_Name: Asset 7 (69)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19755,7 +19807,7 @@ GameObject:
   - component: {fileID: 1353036763}
   m_Layer: 0
   m_Name: Asset 15 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19839,7 +19891,7 @@ GameObject:
   - component: {fileID: 1369427516}
   m_Layer: 0
   m_Name: Cloud_1 (48)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20007,7 +20059,7 @@ GameObject:
   - component: {fileID: 1401034299}
   m_Layer: 0
   m_Name: Asset 13 (71)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20093,7 +20145,7 @@ GameObject:
   - component: {fileID: 1405576365}
   m_Layer: 0
   m_Name: coin (64)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20155,6 +20207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1405576367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20234,7 +20287,7 @@ GameObject:
   - component: {fileID: 1406563370}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20320,7 +20373,7 @@ GameObject:
   - component: {fileID: 1410695772}
   m_Layer: 0
   m_Name: coin (115)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20382,6 +20435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1410695774
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20461,7 +20515,7 @@ GameObject:
   - component: {fileID: 1419630527}
   m_Layer: 0
   m_Name: Cloud_1 (55)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20547,7 +20601,7 @@ GameObject:
   - component: {fileID: 1434701583}
   m_Layer: 0
   m_Name: coin (68)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20609,6 +20663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1434701585
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20688,7 +20743,7 @@ GameObject:
   - component: {fileID: 1442430791}
   m_Layer: 0
   m_Name: Cloud_1 (84)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20772,7 +20827,7 @@ GameObject:
   - component: {fileID: 1451803516}
   m_Layer: 0
   m_Name: Asset 13 (74)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20856,7 +20911,7 @@ GameObject:
   - component: {fileID: 1452626558}
   m_Layer: 0
   m_Name: Cloud_1 (41)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21034,7 +21089,7 @@ GameObject:
   - component: {fileID: 1460514861}
   m_Layer: 0
   m_Name: Cloud_1 (26)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21118,7 +21173,7 @@ GameObject:
   - component: {fileID: 1485548167}
   m_Layer: 0
   m_Name: Cloud_1 (54)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21202,7 +21257,7 @@ GameObject:
   - component: {fileID: 1497334638}
   m_Layer: 0
   m_Name: Asset 7 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21286,7 +21341,7 @@ GameObject:
   - component: {fileID: 1503304185}
   m_Layer: 0
   m_Name: Cloud_1 (69)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21370,7 +21425,7 @@ GameObject:
   - component: {fileID: 1524064638}
   m_Layer: 0
   m_Name: Asset 11 (70)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21454,7 +21509,7 @@ GameObject:
   - component: {fileID: 1530784201}
   m_Layer: 0
   m_Name: Asset 11 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21622,7 +21677,7 @@ GameObject:
   - component: {fileID: 1535664875}
   m_Layer: 0
   m_Name: Asset 13 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21854,6 +21909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1547533522
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21933,7 +21989,7 @@ GameObject:
   - component: {fileID: 1550088513}
   m_Layer: 0
   m_Name: Asset 7 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22017,7 +22073,7 @@ GameObject:
   - component: {fileID: 1553980301}
   m_Layer: 0
   m_Name: Cloud_1 (27)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22101,7 +22157,7 @@ GameObject:
   - component: {fileID: 1554892067}
   m_Layer: 0
   m_Name: Cloud_1 (39)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22185,7 +22241,7 @@ GameObject:
   - component: {fileID: 1563727520}
   m_Layer: 0
   m_Name: Asset 13 (65)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22269,7 +22325,7 @@ GameObject:
   - component: {fileID: 1565378322}
   m_Layer: 0
   m_Name: Cloud_1 (29)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22353,7 +22409,7 @@ GameObject:
   - component: {fileID: 1576170177}
   m_Layer: 0
   m_Name: Cloud_1 (32)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22439,7 +22495,7 @@ GameObject:
   - component: {fileID: 1580954775}
   m_Layer: 0
   m_Name: coin (96)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22501,6 +22557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1580954777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22580,7 +22637,7 @@ GameObject:
   - component: {fileID: 1598535908}
   m_Layer: 0
   m_Name: Asset 13 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22664,7 +22721,7 @@ GameObject:
   - component: {fileID: 1599999982}
   m_Layer: 0
   m_Name: Cloud_1 (68)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22748,7 +22805,7 @@ GameObject:
   - component: {fileID: 1601313121}
   m_Layer: 0
   m_Name: Cloud_1 (91)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23090,7 +23147,7 @@ GameObject:
   - component: {fileID: 1614699503}
   m_Layer: 0
   m_Name: Asset 11 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23174,7 +23231,7 @@ GameObject:
   - component: {fileID: 1619038253}
   m_Layer: 0
   m_Name: Asset 7 (72)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23258,7 +23315,7 @@ GameObject:
   - component: {fileID: 1621083323}
   m_Layer: 0
   m_Name: Asset 13 (20)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23342,7 +23399,7 @@ GameObject:
   - component: {fileID: 1630254330}
   m_Layer: 0
   m_Name: Asset 15 (71)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23426,7 +23483,7 @@ GameObject:
   - component: {fileID: 1636298445}
   m_Layer: 0
   m_Name: Asset 15 (73)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23512,7 +23569,7 @@ GameObject:
   - component: {fileID: 1637073607}
   m_Layer: 0
   m_Name: coin (77)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23574,6 +23631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1637073609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23653,7 +23711,7 @@ GameObject:
   - component: {fileID: 1641304810}
   m_Layer: 0
   m_Name: Cloud_1 (96)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23737,7 +23795,7 @@ GameObject:
   - component: {fileID: 1657997137}
   m_Layer: 0
   m_Name: Cloud_1 (20)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23821,7 +23879,7 @@ GameObject:
   - component: {fileID: 1672676448}
   m_Layer: 0
   m_Name: Cloud_1 (81)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23905,7 +23963,7 @@ GameObject:
   - component: {fileID: 1679573540}
   m_Layer: 0
   m_Name: Asset 13 (61)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23989,7 +24047,7 @@ GameObject:
   - component: {fileID: 1682546281}
   m_Layer: 0
   m_Name: Asset 7 (57)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24073,7 +24131,7 @@ GameObject:
   - component: {fileID: 1706046408}
   m_Layer: 0
   m_Name: Cloud_1 (67)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24159,7 +24217,7 @@ GameObject:
   - component: {fileID: 1716705829}
   m_Layer: 0
   m_Name: coin (69)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24221,6 +24279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1716705831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24302,7 +24361,7 @@ GameObject:
   - component: {fileID: 1719317260}
   m_Layer: 0
   m_Name: coin (72)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24364,6 +24423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1719317262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24527,7 +24587,7 @@ GameObject:
   - component: {fileID: 1721588621}
   m_Layer: 0
   m_Name: Asset 7 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24611,7 +24671,7 @@ GameObject:
   - component: {fileID: 1726659439}
   m_Layer: 0
   m_Name: Asset 15 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24695,7 +24755,7 @@ GameObject:
   - component: {fileID: 1732332475}
   m_Layer: 0
   m_Name: Asset 11 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24781,7 +24841,7 @@ GameObject:
   - component: {fileID: 1734209433}
   m_Layer: 0
   m_Name: coin (112)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24843,6 +24903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1734209435
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24922,7 +24983,7 @@ GameObject:
   - component: {fileID: 1742367408}
   m_Layer: 0
   m_Name: Asset 15 (20)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25008,7 +25069,7 @@ GameObject:
   - component: {fileID: 1745115102}
   m_Layer: 0
   m_Name: coin (66)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25070,6 +25131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1745115104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25233,7 +25295,7 @@ GameObject:
   - component: {fileID: 1753628566}
   m_Layer: 0
   m_Name: Asset 15 (73)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25401,7 +25463,7 @@ GameObject:
   - component: {fileID: 1766380006}
   m_Layer: 0
   m_Name: Asset 11 (69)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25485,7 +25547,7 @@ GameObject:
   - component: {fileID: 1790662597}
   m_Layer: 0
   m_Name: Cloud_1 (45)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25617,7 +25679,7 @@ GameObject:
   - component: {fileID: 1804337020}
   m_Layer: 0
   m_Name: Cloud_1 (64)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25701,7 +25763,7 @@ GameObject:
   - component: {fileID: 1813549616}
   m_Layer: 0
   m_Name: Cloud_1 (40)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25785,7 +25847,7 @@ GameObject:
   - component: {fileID: 1817594278}
   m_Layer: 0
   m_Name: Cloud_1 (85)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25869,7 +25931,7 @@ GameObject:
   - component: {fileID: 1826440171}
   m_Layer: 0
   m_Name: Asset 13 (63)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25955,7 +26017,7 @@ GameObject:
   - component: {fileID: 1832659035}
   m_Layer: 0
   m_Name: coin (83)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26017,6 +26079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1832659037
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26096,7 +26159,7 @@ GameObject:
   - component: {fileID: 1837880823}
   m_Layer: 0
   m_Name: Asset 11 (60)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26182,7 +26245,7 @@ GameObject:
   - component: {fileID: 1842303563}
   m_Layer: 0
   m_Name: coin (70)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26244,6 +26307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1842303565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26325,7 +26389,7 @@ GameObject:
   - component: {fileID: 1842884700}
   m_Layer: 0
   m_Name: coin (75)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26387,6 +26451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1842884702
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26466,7 +26531,7 @@ GameObject:
   - component: {fileID: 1845673978}
   m_Layer: 0
   m_Name: Cloud_1 (36)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26550,7 +26615,7 @@ GameObject:
   - component: {fileID: 1846656988}
   m_Layer: 0
   m_Name: Asset 7 (63)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26634,7 +26699,7 @@ GameObject:
   - component: {fileID: 1850851257}
   m_Layer: 0
   m_Name: Cloud_1 (60)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26751,7 +26816,7 @@ GameObject:
   - component: {fileID: 1873548690}
   m_Layer: 0
   m_Name: coin (97)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26813,6 +26878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1873548692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26892,7 +26958,7 @@ GameObject:
   - component: {fileID: 1880082808}
   m_Layer: 0
   m_Name: Asset 7 (62)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26976,7 +27042,7 @@ GameObject:
   - component: {fileID: 1883396417}
   m_Layer: 0
   m_Name: Asset 15 (59)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27062,7 +27128,7 @@ GameObject:
   - component: {fileID: 1893618642}
   m_Layer: 0
   m_Name: coin (98)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27124,6 +27190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &1893618644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27336,7 +27403,7 @@ GameObject:
   - component: {fileID: 1908546539}
   m_Layer: 0
   m_Name: Asset 13 (62)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27420,7 +27487,7 @@ GameObject:
   - component: {fileID: 1909027748}
   m_Layer: 0
   m_Name: Cloud_1 (72)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27504,7 +27571,7 @@ GameObject:
   - component: {fileID: 1912060518}
   m_Layer: 0
   m_Name: Asset 15 (68)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27588,7 +27655,7 @@ GameObject:
   - component: {fileID: 1915384806}
   m_Layer: 0
   m_Name: Cloud_1 (98)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27672,7 +27739,7 @@ GameObject:
   - component: {fileID: 1918257490}
   m_Layer: 0
   m_Name: Asset 15 (72)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27756,7 +27823,7 @@ GameObject:
   - component: {fileID: 1946627272}
   m_Layer: 0
   m_Name: Cloud_1 (52)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27840,7 +27907,7 @@ GameObject:
   - component: {fileID: 1947572430}
   m_Layer: 0
   m_Name: Cloud_1 (34)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27924,7 +27991,7 @@ GameObject:
   - component: {fileID: 1947589499}
   m_Layer: 0
   m_Name: Cloud_1 (51)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28008,7 +28075,7 @@ GameObject:
   - component: {fileID: 1965697797}
   m_Layer: 0
   m_Name: Cloud_1 (99)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28092,7 +28159,7 @@ GameObject:
   - component: {fileID: 1970254458}
   m_Layer: 0
   m_Name: Asset 15 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28178,7 +28245,7 @@ GameObject:
   - component: {fileID: 1971780449}
   m_Layer: 0
   m_Name: Tree (3)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28319,7 +28386,7 @@ GameObject:
   - component: {fileID: 1980379622}
   m_Layer: 0
   m_Name: Asset 7 (68)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28537,7 +28604,7 @@ GameObject:
   - component: {fileID: 1996655895}
   m_Layer: 0
   m_Name: Asset 11 (72)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28621,7 +28688,7 @@ GameObject:
   - component: {fileID: 1998161107}
   m_Layer: 0
   m_Name: Asset 13 (69)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28705,7 +28772,7 @@ GameObject:
   - component: {fileID: 2009680547}
   m_Layer: 0
   m_Name: Asset 11 (61)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28791,7 +28858,7 @@ GameObject:
   - component: {fileID: 2013891244}
   m_Layer: 0
   m_Name: coin (105)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28853,6 +28920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &2013891246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28932,7 +29000,7 @@ GameObject:
   - component: {fileID: 2018646237}
   m_Layer: 0
   m_Name: Asset 13 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29016,7 +29084,7 @@ GameObject:
   - component: {fileID: 2023539591}
   m_Layer: 0
   m_Name: Asset 7 (64)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29102,7 +29170,7 @@ GameObject:
   - component: {fileID: 2028042662}
   m_Layer: 0
   m_Name: coin (85)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29164,6 +29232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &2028042664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29243,7 +29312,7 @@ GameObject:
   - component: {fileID: 2028635548}
   m_Layer: 0
   m_Name: Cloud_1 (28)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29327,7 +29396,7 @@ GameObject:
   - component: {fileID: 2029138595}
   m_Layer: 0
   m_Name: Asset 11 (59)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29411,6 +29480,10 @@ GameObject:
   - component: {fileID: 2032841152}
   - component: {fileID: 2032841151}
   - component: {fileID: 2032841155}
+  - component: {fileID: 2032841159}
+  - component: {fileID: 2032841158}
+  - component: {fileID: 2032841157}
+  - component: {fileID: 2032841156}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -29486,7 +29559,7 @@ Transform:
   m_GameObject: {fileID: 2032841150}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6224065, y: 8, z: -10}
+  m_LocalPosition: {x: 6.7557316, y: 8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29527,6 +29600,66 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2032841156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b2ac1b3c9633d4ebd13f4dc359f0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudTag: Cloud
+  moveSpeed: 0.1
+  randomFactor: 1
+  verticalRandomFactor: 0.5
+--- !u!114 &2032841157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23aa4726ed04b1469e111d6c17ff16d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinTag: Coin
+  rotationSpeed: 180
+--- !u!114 &2032841158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b800f08a8ca8d499b14e2caefc2c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowerTag: Flower
+  maxRotationAngle: 5
+  rotationSpeed: 10
+--- !u!114 &2032841159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8791c6b0d10e9594798f9d0c5abf4c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeTag: Tree
+  maxRotationAngle: 2
+  rotationSpeed: 1
 --- !u!1 &2034892025
 GameObject:
   m_ObjectHideFlags: 0
@@ -29623,7 +29756,7 @@ GameObject:
   - component: {fileID: 2035271957}
   m_Layer: 0
   m_Name: Cloud_1 (94)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29707,7 +29840,7 @@ GameObject:
   - component: {fileID: 2041463548}
   m_Layer: 0
   m_Name: Cloud_1 (100)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29793,7 +29926,7 @@ GameObject:
   - component: {fileID: 2054653067}
   m_Layer: 0
   m_Name: coin (88)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29855,6 +29988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &2054653069
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29934,7 +30068,7 @@ GameObject:
   - component: {fileID: 2056783343}
   m_Layer: 0
   m_Name: Cloud_1 (46)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30102,7 +30236,7 @@ GameObject:
   - component: {fileID: 2081599552}
   m_Layer: 0
   m_Name: Asset 7 (58)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30186,7 +30320,7 @@ GameObject:
   - component: {fileID: 2115691165}
   m_Layer: 0
   m_Name: Asset 13 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30270,7 +30404,7 @@ GameObject:
   - component: {fileID: 2123758063}
   m_Layer: 0
   m_Name: Cloud_1 (61)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30354,7 +30488,7 @@ GameObject:
   - component: {fileID: 2127092167}
   m_Layer: 0
   m_Name: Asset 11 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30440,7 +30574,7 @@ GameObject:
   - component: {fileID: 2144212845}
   m_Layer: 0
   m_Name: coin (67)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30502,6 +30636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ae22b7f5d6b9654c8c9f27611739ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectAnimationDuration: 1
 --- !u!212 &2144212847
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 73883344}
   m_Layer: 0
   m_Name: Cloud_1 (7)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 80454847}
   m_Layer: 0
   m_Name: Cloud_1 (21)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 88315957}
   m_Layer: 0
   m_Name: Cloud_1 (22)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 89438193}
   m_Layer: 0
   m_Name: Asset 13 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 121510158}
   m_Layer: 0
   m_Name: Asset 8 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 123973027}
   m_Layer: 0
   m_Name: Asset 15 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 143220322}
   m_Layer: 0
   m_Name: Asset 13 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 151407858}
   m_Layer: 0
   m_Name: Asset 13 (20)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 175973448}
   m_Layer: 0
   m_Name: Cloud_1 (43)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1141,7 +1141,7 @@ GameObject:
   - component: {fileID: 176064534}
   m_Layer: 0
   m_Name: Asset 11 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 179512221}
   m_Layer: 0
   m_Name: Asset 8 (22)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 214490706}
   m_Layer: 0
   m_Name: Asset 11 (7)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1477,7 +1477,7 @@ GameObject:
   - component: {fileID: 215422975}
   m_Layer: 0
   m_Name: Asset 15 (4)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 239706339}
   m_Layer: 0
   m_Name: Asset 15 (1)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1729,7 +1729,7 @@ GameObject:
   - component: {fileID: 252007815}
   m_Layer: 0
   m_Name: Asset 8 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1813,7 +1813,7 @@ GameObject:
   - component: {fileID: 287914446}
   m_Layer: 0
   m_Name: Cloud_1 (18)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1897,7 +1897,7 @@ GameObject:
   - component: {fileID: 289270936}
   m_Layer: 0
   m_Name: Cloud_1 (25)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1981,7 +1981,7 @@ GameObject:
   - component: {fileID: 296416228}
   m_Layer: 0
   m_Name: Asset 11
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2065,7 +2065,7 @@ GameObject:
   - component: {fileID: 307561614}
   m_Layer: 0
   m_Name: Asset 13 (4)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2233,7 +2233,7 @@ GameObject:
   - component: {fileID: 318128680}
   m_Layer: 0
   m_Name: Asset 13 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2317,7 +2317,7 @@ GameObject:
   - component: {fileID: 328400285}
   m_Layer: 0
   m_Name: Asset 15 (20)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2401,7 +2401,7 @@ GameObject:
   - component: {fileID: 334447362}
   m_Layer: 0
   m_Name: Asset 8 (1)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2485,7 +2485,7 @@ GameObject:
   - component: {fileID: 338283836}
   m_Layer: 0
   m_Name: Asset 15 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3938,7 +3938,7 @@ GameObject:
   - component: {fileID: 349252397}
   m_Layer: 0
   m_Name: Asset 7 (8)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4022,7 +4022,7 @@ GameObject:
   - component: {fileID: 360289776}
   m_Layer: 0
   m_Name: Asset 8 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4106,7 +4106,7 @@ GameObject:
   - component: {fileID: 366403410}
   m_Layer: 0
   m_Name: Asset 11 (5)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4190,7 +4190,7 @@ GameObject:
   - component: {fileID: 367741097}
   m_Layer: 0
   m_Name: Cloud_1 (32)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4274,7 +4274,7 @@ GameObject:
   - component: {fileID: 385445629}
   m_Layer: 0
   m_Name: Asset 7 (7)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4358,7 +4358,7 @@ GameObject:
   - component: {fileID: 392486883}
   m_Layer: 0
   m_Name: Cloud_1 (29)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4610,7 +4610,7 @@ GameObject:
   - component: {fileID: 432086949}
   m_Layer: 0
   m_Name: Asset 11 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4694,7 +4694,7 @@ GameObject:
   - component: {fileID: 443513542}
   m_Layer: 0
   m_Name: Asset 15 (2)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4778,7 +4778,7 @@ GameObject:
   - component: {fileID: 464551673}
   m_Layer: 0
   m_Name: Asset 15 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4862,7 +4862,7 @@ GameObject:
   - component: {fileID: 469203764}
   m_Layer: 0
   m_Name: Asset 8 (2)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4946,7 +4946,7 @@ GameObject:
   - component: {fileID: 495668488}
   m_Layer: 0
   m_Name: Asset 11 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5114,7 +5114,7 @@ GameObject:
   - component: {fileID: 510236473}
   m_Layer: 0
   m_Name: Cloud_1
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5198,7 +5198,7 @@ GameObject:
   - component: {fileID: 512500574}
   m_Layer: 0
   m_Name: Cloud_1 (45)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5282,7 +5282,7 @@ GameObject:
   - component: {fileID: 514344393}
   m_Layer: 0
   m_Name: Asset 15 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5438,7 +5438,7 @@ GameObject:
   - component: {fileID: 527348155}
   m_Layer: 0
   m_Name: Asset 13 (8)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5522,7 +5522,7 @@ GameObject:
   - component: {fileID: 542548621}
   m_Layer: 0
   m_Name: Asset 8 (6)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5606,7 +5606,7 @@ GameObject:
   - component: {fileID: 546811049}
   m_Layer: 0
   m_Name: Cloud_1 (24)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5690,7 +5690,7 @@ GameObject:
   - component: {fileID: 566240874}
   m_Layer: 0
   m_Name: Asset 15 (25)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5774,7 +5774,7 @@ GameObject:
   - component: {fileID: 570382670}
   m_Layer: 0
   m_Name: Cloud_1 (37)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5858,6 +5858,9 @@ GameObject:
   - component: {fileID: 574337223}
   - component: {fileID: 574337222}
   - component: {fileID: 574337221}
+  - component: {fileID: 574337225}
+  - component: {fileID: 574337227}
+  - component: {fileID: 574337228}
   m_Layer: 0
   m_Name: level (2)
   m_TagString: Untagged
@@ -5931,7 +5934,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 16
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5960,7 +5963,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 16.440432, w: 4.5559263}
+  m_margin: {x: 0, y: 1.6677823, z: -0.73532915, w: 0.9975505}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -6027,9 +6030,108 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.8, y: 5.44}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: 5.1469, y: 7.7041}
+  m_SizeDelta: {x: 2.6939, y: 3.3321}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &574337225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574337220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8492ffa6826ccd74ebfc73d9c57e4f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 574337220}
+  activationDistance: 2
+  deactivationDistance: 3
+  playerTag: Player
+--- !u!1839735485 &574337227
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574337220}
+  m_Enabled: 1
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+  m_TileAssetArray: []
+  m_TileSpriteArray: []
+  m_TileMatrixArray: []
+  m_TileColorArray: []
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0, y: 0, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!61 &574337228
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574337220}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -4.9985027, y: 0.9675815}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.997005, y: 1.935163}
+  m_EdgeRadius: 0
 --- !u!1 &596210766
 GameObject:
   m_ObjectHideFlags: 0
@@ -6042,7 +6144,7 @@ GameObject:
   - component: {fileID: 596210767}
   m_Layer: 0
   m_Name: Cloud_1 (8)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6126,6 +6228,7 @@ GameObject:
   - component: {fileID: 607466354}
   - component: {fileID: 607466353}
   - component: {fileID: 607466352}
+  - component: {fileID: 607466355}
   m_Layer: 0
   m_Name: level
   m_TagString: Untagged
@@ -6149,8 +6252,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 76.22, y: 6.96}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: 66.51, y: 7.11}
+  m_SizeDelta: {x: 2.3738, y: 4.2546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!210 &607466352
 SortingGroup:
@@ -6247,7 +6350,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 17.271042, w: 3.8355694}
+  m_margin: {x: 4.355446, y: 0, z: -4.0112076, w: 3.063326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -6298,6 +6401,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &607466355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607466350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8492ffa6826ccd74ebfc73d9c57e4f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 607466350}
+  activationDistance: 2
+  deactivationDistance: 3
+  playerTag: Player
 --- !u!1 &630499642
 GameObject:
   m_ObjectHideFlags: 0
@@ -6310,7 +6429,7 @@ GameObject:
   - component: {fileID: 630499643}
   m_Layer: 0
   m_Name: Asset 11 (22)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6394,7 +6513,7 @@ GameObject:
   - component: {fileID: 635698115}
   m_Layer: 0
   m_Name: Asset 11 (8)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6478,7 +6597,7 @@ GameObject:
   - component: {fileID: 651078480}
   m_Layer: 0
   m_Name: Cloud_1 (28)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6608,7 +6727,7 @@ GameObject:
   - component: {fileID: 688063248}
   m_Layer: 0
   m_Name: Cloud_1 (33)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6692,7 +6811,7 @@ GameObject:
   - component: {fileID: 692025689}
   m_Layer: 0
   m_Name: Asset 8 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6910,7 +7029,7 @@ GameObject:
   - component: {fileID: 711421024}
   m_Layer: 0
   m_Name: Asset 15 (7)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6994,7 +7113,7 @@ GameObject:
   - component: {fileID: 715091954}
   m_Layer: 0
   m_Name: Bush
-  m_TagString: Untagged
+  m_TagString: Bush
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7078,7 +7197,7 @@ GameObject:
   - component: {fileID: 738716597}
   m_Layer: 0
   m_Name: Asset 15 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7193,7 +7312,7 @@ GameObject:
   - component: {fileID: 746499419}
   m_Layer: 0
   m_Name: Asset 8 (8)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7277,7 +7396,7 @@ GameObject:
   - component: {fileID: 753748334}
   m_Layer: 0
   m_Name: Cloud_1 (6)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7361,7 +7480,7 @@ GameObject:
   - component: {fileID: 755336084}
   m_Layer: 0
   m_Name: Asset 11 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7445,7 +7564,7 @@ GameObject:
   - component: {fileID: 758186354}
   m_Layer: 0
   m_Name: Cloud_1 (44)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7529,7 +7648,7 @@ GameObject:
   - component: {fileID: 761634184}
   m_Layer: 0
   m_Name: Cloud_1 (17)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7613,7 +7732,7 @@ GameObject:
   - component: {fileID: 768391204}
   m_Layer: 0
   m_Name: Asset 13 (9)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7697,7 +7816,7 @@ GameObject:
   - component: {fileID: 777409011}
   m_Layer: 0
   m_Name: Cloud_1 (2)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7781,7 +7900,7 @@ GameObject:
   - component: {fileID: 781390031}
   m_Layer: 0
   m_Name: Cloud_1 (19)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7865,7 +7984,7 @@ GameObject:
   - component: {fileID: 787222280}
   m_Layer: 0
   m_Name: Cloud_1 (9)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7949,7 +8068,7 @@ GameObject:
   - component: {fileID: 794514049}
   m_Layer: 0
   m_Name: Asset 13 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8033,7 +8152,7 @@ GameObject:
   - component: {fileID: 798580279}
   m_Layer: 0
   m_Name: Asset 11 (6)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8117,7 +8236,7 @@ GameObject:
   - component: {fileID: 801754949}
   m_Layer: 0
   m_Name: Cloud_1 (41)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8201,7 +8320,7 @@ GameObject:
   - component: {fileID: 803045465}
   m_Layer: 0
   m_Name: Asset 8 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8285,7 +8404,7 @@ GameObject:
   - component: {fileID: 803377732}
   m_Layer: 0
   m_Name: Cloud_1 (48)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8453,7 +8572,7 @@ GameObject:
   - component: {fileID: 806734186}
   m_Layer: 0
   m_Name: Asset 11 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8537,7 +8656,7 @@ GameObject:
   - component: {fileID: 806923300}
   m_Layer: 0
   m_Name: Cloud_1 (34)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8621,7 +8740,7 @@ GameObject:
   - component: {fileID: 819560190}
   m_Layer: 0
   m_Name: Asset 11 (9)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8705,7 +8824,7 @@ GameObject:
   - component: {fileID: 826927149}
   m_Layer: 0
   m_Name: Asset 11 (1)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8789,7 +8908,7 @@ GameObject:
   - component: {fileID: 832395852}
   m_Layer: 0
   m_Name: Asset 8 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8873,7 +8992,7 @@ GameObject:
   - component: {fileID: 836345669}
   m_Layer: 0
   m_Name: Cloud_1 (46)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9041,7 +9160,7 @@ GameObject:
   - component: {fileID: 842501639}
   m_Layer: 0
   m_Name: Asset 13 (3)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9125,7 +9244,7 @@ GameObject:
   - component: {fileID: 842712603}
   m_Layer: 0
   m_Name: Asset 15 (22)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9344,7 +9463,7 @@ GameObject:
   - component: {fileID: 871582450}
   m_Layer: 0
   m_Name: Cloud_1 (26)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9428,7 +9547,7 @@ GameObject:
   - component: {fileID: 874180969}
   m_Layer: 0
   m_Name: Asset 7 (9)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9512,7 +9631,7 @@ GameObject:
   - component: {fileID: 880873002}
   m_Layer: 0
   m_Name: Cloud_1 (13)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9596,7 +9715,7 @@ GameObject:
   - component: {fileID: 886723059}
   m_Layer: 0
   m_Name: Asset 8 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9680,7 +9799,7 @@ GameObject:
   - component: {fileID: 897480693}
   m_Layer: 0
   m_Name: Asset 13 (14)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9764,7 +9883,7 @@ GameObject:
   - component: {fileID: 908640728}
   m_Layer: 0
   m_Name: Asset 11 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10055,6 +10174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced42ee5a52fbf145823a049f852954f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 3
+  healthText: {fileID: 1367796816}
 --- !u!1 &929801598
 GameObject:
   m_ObjectHideFlags: 0
@@ -10145,7 +10266,7 @@ GameObject:
   - component: {fileID: 946714168}
   m_Layer: 0
   m_Name: Asset 11 (25)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10229,7 +10350,7 @@ GameObject:
   - component: {fileID: 955573432}
   m_Layer: 0
   m_Name: Asset 15 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10313,7 +10434,7 @@ GameObject:
   - component: {fileID: 958801472}
   m_Layer: 0
   m_Name: Asset 7 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10397,7 +10518,7 @@ GameObject:
   - component: {fileID: 988738282}
   m_Layer: 0
   m_Name: Asset 8
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10565,7 +10686,7 @@ GameObject:
   - component: {fileID: 1009933884}
   m_Layer: 0
   m_Name: Asset 7 (3)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10649,7 +10770,7 @@ GameObject:
   - component: {fileID: 1018708859}
   m_Layer: 0
   m_Name: Asset 11 (4)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10733,7 +10854,7 @@ GameObject:
   - component: {fileID: 1049483791}
   m_Layer: 0
   m_Name: Asset 13 (6)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10817,7 +10938,7 @@ GameObject:
   - component: {fileID: 1052177840}
   m_Layer: 0
   m_Name: Asset 8 (25)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10901,6 +11022,7 @@ GameObject:
   - component: {fileID: 1052802734}
   - component: {fileID: 1052802733}
   - component: {fileID: 1052802732}
+  - component: {fileID: 1052802736}
   m_Layer: 0
   m_Name: level
   m_TagString: Untagged
@@ -11070,9 +11192,25 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.67, y: 7.33}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: 8.4266, y: 7.33}
+  m_SizeDelta: {x: 21.5133, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1052802736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052802731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5f4328b1906f14a8fccb325981d020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exitYPosition: 500
+  fadeDuration: 1
+  animationSpeed: 1
+  fadePerStep: 0.2
 --- !u!1 &1070261103
 GameObject:
   m_ObjectHideFlags: 0
@@ -11085,7 +11223,7 @@ GameObject:
   - component: {fileID: 1070261104}
   m_Layer: 0
   m_Name: Bush (1)
-  m_TagString: Untagged
+  m_TagString: Bush
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11169,7 +11307,7 @@ GameObject:
   - component: {fileID: 1075889510}
   m_Layer: 0
   m_Name: Asset 8 (5)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11253,7 +11391,7 @@ GameObject:
   - component: {fileID: 1082888189}
   m_Layer: 0
   m_Name: Cloud_1 (42)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11452,7 +11590,7 @@ GameObject:
   - component: {fileID: 1120080463}
   m_Layer: 0
   m_Name: Cloud_1 (38)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11686,7 +11824,7 @@ GameObject:
   - component: {fileID: 1141145222}
   m_Layer: 0
   m_Name: Asset 11 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11858,7 +11996,7 @@ GameObject:
   - component: {fileID: 1151844779}
   m_Layer: 0
   m_Name: Asset 15 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11942,7 +12080,7 @@ GameObject:
   - component: {fileID: 1163599967}
   m_Layer: 0
   m_Name: Asset 7 (5)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12026,7 +12164,7 @@ GameObject:
   - component: {fileID: 1175808883}
   m_Layer: 0
   m_Name: Cloud_1 (1)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12110,7 +12248,7 @@ GameObject:
   - component: {fileID: 1176186449}
   m_Layer: 0
   m_Name: Asset 11 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12194,7 +12332,7 @@ GameObject:
   - component: {fileID: 1192101614}
   m_Layer: 0
   m_Name: Asset 13 (24)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12278,7 +12416,7 @@ GameObject:
   - component: {fileID: 1207771989}
   m_Layer: 0
   m_Name: Cloud_1 (27)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12362,7 +12500,7 @@ GameObject:
   - component: {fileID: 1213135209}
   m_Layer: 0
   m_Name: Cloud_1 (14)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12446,7 +12584,7 @@ GameObject:
   - component: {fileID: 1228070432}
   m_Layer: 0
   m_Name: Asset 13 (5)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12530,7 +12668,7 @@ GameObject:
   - component: {fileID: 1243875634}
   m_Layer: 0
   m_Name: Asset 8 (23)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12614,7 +12752,7 @@ GameObject:
   - component: {fileID: 1251670054}
   m_Layer: 0
   m_Name: Asset 8 (4)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12698,7 +12836,7 @@ GameObject:
   - component: {fileID: 1265166672}
   m_Layer: 0
   m_Name: Asset 13 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12782,7 +12920,7 @@ GameObject:
   - component: {fileID: 1266254001}
   m_Layer: 0
   m_Name: Cloud_1 (36)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12866,7 +13004,7 @@ GameObject:
   - component: {fileID: 1269019782}
   m_Layer: 0
   m_Name: Asset 15 (17)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12950,7 +13088,7 @@ GameObject:
   - component: {fileID: 1273380990}
   m_Layer: 0
   m_Name: Asset 11 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13034,7 +13172,7 @@ GameObject:
   - component: {fileID: 1276886760}
   m_Layer: 0
   m_Name: Asset 13 (11)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13166,7 +13304,7 @@ GameObject:
   - component: {fileID: 1310492719}
   m_Layer: 0
   m_Name: Asset 11 (24)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13250,7 +13388,7 @@ GameObject:
   - component: {fileID: 1321107758}
   m_Layer: 0
   m_Name: Asset 15 (9)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13334,7 +13472,7 @@ GameObject:
   - component: {fileID: 1321958553}
   m_Layer: 0
   m_Name: Asset 8 (9)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13418,7 +13556,7 @@ GameObject:
   - component: {fileID: 1335002020}
   m_Layer: 0
   m_Name: Asset 15 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13502,7 +13640,7 @@ GameObject:
   - component: {fileID: 1335053433}
   m_Layer: 0
   m_Name: Asset 13 (22)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13586,7 +13724,7 @@ GameObject:
   - component: {fileID: 1342948821}
   m_Layer: 0
   m_Name: Cloud_1 (47)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13754,7 +13892,7 @@ GameObject:
   - component: {fileID: 1350353334}
   m_Layer: 0
   m_Name: Asset 11 (2)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13838,7 +13976,7 @@ GameObject:
   - component: {fileID: 1357459770}
   m_Layer: 0
   m_Name: Asset 15 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13910,6 +14048,140 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1367796814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1367796815}
+  - component: {fileID: 1367796817}
+  - component: {fileID: 1367796816}
+  m_Layer: 5
+  m_Name: HealthText
+  m_TagString: TimerText
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1367796815
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367796814}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1611204974}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 5, y: -112.5}
+  m_SizeDelta: {x: 475.6689, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1367796816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367796814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0:00:00
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1367796817
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367796814}
+  m_CullTransparentMesh: 1
 --- !u!1 &1374343009
 GameObject:
   m_ObjectHideFlags: 0
@@ -13922,7 +14194,7 @@ GameObject:
   - component: {fileID: 1374343010}
   m_Layer: 0
   m_Name: Asset 11 (16)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14006,7 +14278,7 @@ GameObject:
   - component: {fileID: 1380375327}
   m_Layer: 0
   m_Name: Asset 13 (21)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14092,7 +14364,7 @@ GameObject:
   - component: {fileID: 1399066912}
   m_Layer: 0
   m_Name: Tree (1)
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14233,7 +14505,7 @@ GameObject:
   - component: {fileID: 1423169335}
   m_Layer: 0
   m_Name: Asset 15 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14545,7 +14817,7 @@ GameObject:
   - component: {fileID: 1453533288}
   m_Layer: 0
   m_Name: Cloud_1 (11)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14629,7 +14901,7 @@ GameObject:
   - component: {fileID: 1453741967}
   m_Layer: 0
   m_Name: Asset 11 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14713,7 +14985,7 @@ GameObject:
   - component: {fileID: 1462439893}
   m_Layer: 0
   m_Name: Asset 15 (8)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14797,7 +15069,7 @@ GameObject:
   - component: {fileID: 1467968899}
   m_Layer: 0
   m_Name: Asset 8 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14881,7 +15153,7 @@ GameObject:
   - component: {fileID: 1474162070}
   m_Layer: 0
   m_Name: Asset 13 (23)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14965,7 +15237,7 @@ GameObject:
   - component: {fileID: 1487886591}
   m_Layer: 0
   m_Name: Asset 13 (13)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15049,7 +15321,7 @@ GameObject:
   - component: {fileID: 1498369070}
   m_Layer: 0
   m_Name: Asset 7 (2)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15133,7 +15405,7 @@ GameObject:
   - component: {fileID: 1501589319}
   m_Layer: 0
   m_Name: Asset 8 (3)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15217,7 +15489,7 @@ GameObject:
   - component: {fileID: 1510924212}
   m_Layer: 0
   m_Name: Asset 15 (3)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15301,7 +15573,7 @@ GameObject:
   - component: {fileID: 1511138800}
   m_Layer: 0
   m_Name: Cloud_1 (20)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15385,7 +15657,7 @@ GameObject:
   - component: {fileID: 1515159197}
   m_Layer: 0
   m_Name: Asset 15
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15553,7 +15825,7 @@ GameObject:
   - component: {fileID: 1555274910}
   m_Layer: 0
   m_Name: Asset 11 (23)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15637,7 +15909,7 @@ GameObject:
   - component: {fileID: 1558534008}
   m_Layer: 0
   m_Name: Asset 15 (5)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15721,7 +15993,7 @@ GameObject:
   - component: {fileID: 1568417032}
   m_Layer: 0
   m_Name: Cloud_1 (23)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15891,6 +16163,7 @@ RectTransform:
   - {fileID: 1702799417}
   - {fileID: 1664918961}
   - {fileID: 1134521445}
+  - {fileID: 1367796815}
   - {fileID: 2111336531}
   - {fileID: 1304099895}
   - {fileID: 73766372}
@@ -15929,7 +16202,7 @@ GameObject:
   - component: {fileID: 1616093422}
   m_Layer: 0
   m_Name: Asset 15 (23)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16013,7 +16286,7 @@ GameObject:
   - component: {fileID: 1619848916}
   m_Layer: 0
   m_Name: Cloud_1 (3)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16097,7 +16370,7 @@ GameObject:
   - component: {fileID: 1649267827}
   m_Layer: 0
   m_Name: Asset 13 (25)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16181,7 +16454,7 @@ GameObject:
   - component: {fileID: 1659375770}
   m_Layer: 0
   m_Name: Cloud_1 (30)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16265,7 +16538,7 @@ GameObject:
   - component: {fileID: 1663104914}
   m_Layer: 0
   m_Name: Asset 13 (18)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16349,7 +16622,7 @@ GameObject:
   - component: {fileID: 1664071272}
   m_Layer: 0
   m_Name: Asset 7 (4)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16508,7 +16781,7 @@ GameObject:
   - component: {fileID: 1669762903}
   m_Layer: 0
   m_Name: Asset 11 (3)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16739,7 +17012,7 @@ GameObject:
   - component: {fileID: 1734186754}
   m_Layer: 0
   m_Name: Asset 15 (24)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16823,7 +17096,7 @@ GameObject:
   - component: {fileID: 1754043739}
   m_Layer: 0
   m_Name: Cloud_1 (10)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16991,7 +17264,7 @@ GameObject:
   - component: {fileID: 1764692171}
   m_Layer: 0
   m_Name: Cloud_1 (35)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17075,7 +17348,7 @@ GameObject:
   - component: {fileID: 1789318112}
   m_Layer: 0
   m_Name: Asset 15 (6)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17159,7 +17432,7 @@ GameObject:
   - component: {fileID: 1801412035}
   m_Layer: 0
   m_Name: Cloud_1 (16)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17243,7 +17516,7 @@ GameObject:
   - component: {fileID: 1807691841}
   m_Layer: 0
   m_Name: Asset 8 (24)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17327,7 +17600,7 @@ GameObject:
   - component: {fileID: 1814462537}
   m_Layer: 0
   m_Name: Cloud_1 (4)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17411,7 +17684,7 @@ GameObject:
   - component: {fileID: 1820879826}
   m_Layer: 0
   m_Name: Asset 13
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17495,7 +17768,7 @@ GameObject:
   - component: {fileID: 1834747523}
   m_Layer: 0
   m_Name: Cloud_1 (5)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17610,7 +17883,7 @@ GameObject:
   - component: {fileID: 1882104418}
   m_Layer: 0
   m_Name: Asset 13 (15)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17694,7 +17967,7 @@ GameObject:
   - component: {fileID: 1894909547}
   m_Layer: 0
   m_Name: Asset 7 (1)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17778,7 +18051,7 @@ GameObject:
   - component: {fileID: 1920872052}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17862,7 +18135,7 @@ GameObject:
   - component: {fileID: 1932135198}
   m_Layer: 0
   m_Name: Asset 8 (7)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17946,7 +18219,7 @@ GameObject:
   - component: {fileID: 1941858670}
   m_Layer: 0
   m_Name: Asset 8 (10)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18030,7 +18303,7 @@ GameObject:
   - component: {fileID: 1943070031}
   m_Layer: 0
   m_Name: Cloud_1 (31)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18114,7 +18387,7 @@ GameObject:
   - component: {fileID: 1944408868}
   m_Layer: 0
   m_Name: Cloud_1 (15)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18198,7 +18471,7 @@ GameObject:
   - component: {fileID: 1945228739}
   m_Layer: 0
   m_Name: Asset 13 (2)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18282,7 +18555,7 @@ GameObject:
   - component: {fileID: 1950891877}
   m_Layer: 0
   m_Name: Asset 8 (19)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18366,7 +18639,7 @@ GameObject:
   - component: {fileID: 1989745076}
   m_Layer: 0
   m_Name: Asset 8 (12)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18450,7 +18723,7 @@ GameObject:
   - component: {fileID: 1999923554}
   m_Layer: 0
   m_Name: Asset 13 (7)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18534,7 +18807,7 @@ GameObject:
   - component: {fileID: 2003322437}
   m_Layer: 0
   m_Name: Asset 8 (20)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18618,7 +18891,7 @@ GameObject:
   - component: {fileID: 2007214580}
   m_Layer: 0
   m_Name: Cloud_1 (40)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18702,7 +18975,7 @@ GameObject:
   - component: {fileID: 2008430929}
   m_Layer: 0
   m_Name: Cloud_1 (12)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18786,6 +19059,10 @@ GameObject:
   - component: {fileID: 2032841152}
   - component: {fileID: 2032841151}
   - component: {fileID: 2032841155}
+  - component: {fileID: 2032841156}
+  - component: {fileID: 2032841157}
+  - component: {fileID: 2032841158}
+  - component: {fileID: 2032841159}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -18861,7 +19138,7 @@ Transform:
   m_GameObject: {fileID: 2032841150}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6224065, y: 8, z: -10}
+  m_LocalPosition: {x: 6.7557316, y: 8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18902,6 +19179,69 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2032841156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b2ac1b3c9633d4ebd13f4dc359f0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudTag: Cloud
+  moveSpeed: 0.5
+  randomFactor: 1
+  verticalRandomFactor: 0.5
+--- !u!114 &2032841157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8791c6b0d10e9594798f9d0c5abf4c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeTag: Tree
+  maxRotationAngle: 3
+  rotationSpeed: 1
+--- !u!114 &2032841158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b800f08a8ca8d499b14e2caefc2c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowerTag: Flower
+  maxRotationAngle: 5
+  rotationSpeed: 10
+--- !u!114 &2032841159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032841150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28031bb0348baad45859b7ba9ee96d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bushTag: Bush
+  minScale: 0.7
+  maxScale: 1.2
+  scalingSpeed: 0.5
+  scaleRandomness: 0.1
 --- !u!1 &2034892025
 GameObject:
   m_ObjectHideFlags: 0
@@ -18998,7 +19338,7 @@ GameObject:
   - component: {fileID: 2039015351}
   m_Layer: 0
   m_Name: Cloud_1 (39)
-  m_TagString: Untagged
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19166,7 +19506,7 @@ GameObject:
   - component: {fileID: 2090679229}
   m_Layer: 0
   m_Name: Asset 7
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19250,7 +19590,7 @@ GameObject:
   - component: {fileID: 2096164601}
   m_Layer: 0
   m_Name: Asset 7 (6)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19467,7 +19807,7 @@ GameObject:
   - component: {fileID: 2114443950}
   m_Layer: 0
   m_Name: Asset 11 (20)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19551,7 +19891,7 @@ GameObject:
   - component: {fileID: 2135209928}
   m_Layer: 0
   m_Name: Asset 13 (1)
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19635,6 +19975,7 @@ GameObject:
   - component: {fileID: 2137680571}
   - component: {fileID: 2137680570}
   - component: {fileID: 2137680569}
+  - component: {fileID: 2137680573}
   m_Layer: 0
   m_Name: level (1)
   m_TagString: Untagged
@@ -19737,7 +20078,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 16.692556, w: 4.177739}
+  m_margin: {x: 0, y: 4.4882965, z: 3.3427582, w: 0.66649437}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -19804,9 +20145,25 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.9, y: 5.41}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: 34.2737, y: 8.7495}
+  m_SizeDelta: {x: 6.7473, y: 6.3165}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2137680573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137680568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8492ffa6826ccd74ebfc73d9c57e4f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 2137680568}
+  activationDistance: 2
+  deactivationDistance: 3
+  playerTag: Player
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
